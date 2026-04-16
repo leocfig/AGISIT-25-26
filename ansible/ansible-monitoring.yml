@@ -1,0 +1,82 @@
+---
+- name: Deploy monitoring stack (Prometheus + Grafana)
+  hosts: master
+  become: yes
+  tasks:
+
+    - name: Download Helm install script
+      get_url:
+        url: https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+        dest: /tmp/get_helm.sh
+        mode: '0755'
+
+    - name: Install Helm
+      command: /tmp/get_helm.sh
+
+    - name: Add Helm repositories
+      command: >
+        helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+      ignore_errors: yes
+
+    - name: Add Grafana Helm repository
+      command: >
+        helm repo add grafana https://grafana.github.io/helm-charts
+      ignore_errors: yes
+
+    - name: Update Helm repositories
+      command: helm repo update
+
+    - name: Install Prometheus Operator CRDs (cluster-wide, only once)
+      command: >
+        helm upgrade --install prometheus-crds
+        oci://ghcr.io/prometheus-community/charts/prometheus-operator-crds
+        --namespace default
+
+    - name: Install Prometheus stack in default namespace
+      command: >
+        helm upgrade --install prometheus prometheus-community/kube-prometheus-stack
+        --namespace default --create-namespace
+        --set grafana.enabled=false
+        --set alertmanager.persistentVolume.enabled=false
+        --set prometheus.prometheusSpec.serviceMonitorSelectorNilUsesHelmValues=false
+
+    - name: Ensure /root/ansible directory exists
+      file:
+        path: /root/ansible
+        state: directory
+        mode: '0755'
+
+    - name: Copy Grafana values file
+      copy:
+        src: grafana-values.yaml
+        dest: /root/ansible/grafana-values.yaml
+        mode: '0644'
+
+    - name: Generate Grafana dashboards ConfigMap
+      template:
+        src: grafana-dashboards-configmap.yaml.j2
+        dest: /root/ansible/grafana-dashboards-configmap.yaml
+
+    - name: Apply Grafana dashboards ConfigMap
+      command: kubectl apply -f /root/ansible/grafana-dashboards-configmap.yaml
+
+    - name: Install Grafana
+      command: >
+        helm upgrade --install grafana grafana/grafana
+        --namespace default --create-namespace
+        -f /root/ansible/grafana-values.yaml
+
+    - name: Add Metrics Server Helm repository
+      command: >
+        helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
+      ignore_errors: yes
+
+    - name: Update Helm repositories
+      command: helm repo update
+
+    - name: Install or upgrade Metrics Server
+      command: >
+        helm upgrade --install metrics-server metrics-server/metrics-server
+        --namespace kube-system
+        --create-namespace
+        --set args={--cert-dir=/tmp,--kubelet-insecure-tls,--kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname,--metric-resolution=15s}

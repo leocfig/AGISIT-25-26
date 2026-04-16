@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db-auth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: db-auth
+  template:
+    metadata:
+      labels:
+        app: db-auth
+    spec:
+      containers:
+      - name: db-auth
+        image: ghcr.io/leocfig/db:latest
+        env:
+          - name: POSTGRES_DB
+            value: "auth_db"
+          - name: POSTGRES_USER
+            value: "auth_user"
+          - name: POSTGRES_PASSWORD
+            value: "auth_pass"
+        ports:
+          - containerPort: 5432
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "256Mi"
+          limits:
+            cpu: "250m"
+            memory: "256Mi"
+        readinessProbe:
+          exec:
+            command:
+              - pg_isready
+              - -U
+              - auth_user
+              - -d
+              - auth_db
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        livenessProbe:
+          exec:
+            command:
+              - pg_isready
+              - -U
+              - auth_user
+              - -d
+              - auth_db
+      imagePullSecrets:
+      - name: ghcr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-auth
+spec:
+  selector:
+    app: db-auth
+  ports:
+    - port: 5432
+      targetPort: 5432

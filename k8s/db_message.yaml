@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db-message
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: db-message
+  template:
+    metadata:
+      labels:
+        app: db-message
+    spec:
+      containers:
+      - name: db-message
+        image: ghcr.io/leocfig/db:latest
+        env:
+          - name: POSTGRES_DB
+            value: "message_db"
+          - name: POSTGRES_USER
+            value: "message_user"
+          - name: POSTGRES_PASSWORD
+            value: "message_pass"
+        ports:
+          - containerPort: 5432
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "256Mi"
+          limits:
+            cpu: "250m"
+            memory: "256Mi"
+        readinessProbe:
+          exec:
+            command:
+              - pg_isready
+              - -U
+              - message_user
+              - -d
+              - message_db
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        livenessProbe:
+          exec:
+            command:
+              - pg_isready
+              - -U
+              - message_user
+              - -d
+              - message_db
+          initialDelaySeconds: 30
+          periodSeconds: 10
+      imagePullSecrets:
+      - name: ghcr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-message
+spec:
+  selector:
+    app: db-message
+  ports:
+    - port: 5435
+      targetPort: 5432

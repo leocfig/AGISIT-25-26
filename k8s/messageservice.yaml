@@ -1,0 +1,110 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: messageservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: messageservice
+  template:
+    metadata:
+      labels:
+        app: messageservice
+    spec:
+      containers:
+      - name: messageservice
+        image: ghcr.io/leocfig/messageservice:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DB_HOST
+          value: db-message
+        - name: DB_PORT
+          value: "5435"
+        - name: DB_NAME
+          value: message_db
+        - name: DB_USER
+          value: message_user
+        - name: DB_PASSWORD
+          value: message_pass
+        - name: AUTH_BASE_URL
+          value: http://authservice:8000
+        - name: JWT_SHARED_SECRET
+          value: dev-shared-secret
+        - name: DJANGO_SECRET_KEY
+          value: dev-key
+        - name: DJANGO_DEBUG
+          value: "1"
+        - name: CORS_ALLOWED_ORIGINS
+          value: http://localhost:5173,http://127.0.0.1:5173
+        - name: ALLOWED_HOSTS
+          value: "*"
+        resources:
+          requests:
+            cpu: "200m"
+            memory: "300Mi"
+          limits:
+            cpu: "400m"
+            memory: "300Mi"
+        readinessProbe:
+          httpGet:
+            httpHeaders:
+              - name: host
+                value: localhost
+            path: /health/
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            httpHeaders:
+              - name: host
+                value: localhost
+            path: /health/
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 30
+      imagePullSecrets:
+      - name: ghcr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: messageservice
+  labels:
+    app: messageservice
+spec:
+  selector:
+    app: messageservice
+  ports:
+    - name: http-metrics
+      protocol: TCP
+      port: 8000
+      targetPort: 8000
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: messageservice-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: messageservice
+  minReplicas: 1
+  maxReplicas: 3
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 60

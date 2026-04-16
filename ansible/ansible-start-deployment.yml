@@ -1,0 +1,55 @@
+---
+- hosts: master
+  become: yes
+  become_user: root
+  tasks:
+
+    - name: Create Kubernetes directory on master node
+      file:
+        path: /home/ubuntu/k8s
+        state: directory
+        mode: '0755'
+
+    - name: Copy all Kubernetes manifests to master
+      copy:
+        src: ../k8s/
+        dest: /home/ubuntu/k8s/
+        mode: '0644'
+
+    - name: Install NGINX Ingress Controller (NodePort version)
+      shell: |
+        kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/baremetal/deploy.yaml
+
+    - name: Wait for ingress controller pods to be ready
+      shell: |
+        kubectl wait --namespace ingress-nginx \
+          --for=condition=ready pod \
+          --selector=app.kubernetes.io/component=controller \
+          --timeout=300s
+    
+    - name: Patch NGINX Ingress Controller Service to set fixed NodePorts
+      shell: |
+        kubectl patch svc ingress-nginx-controller -n ingress-nginx --type='merge' -p '{
+          "spec": {
+            "ports": [
+              {"name":"http","port":80,"nodePort":30080},
+              {"name":"https","port":443,"nodePort":30443}
+            ]
+          }
+        }'
+
+    - name: Create imagePullSecret for GHCR
+      shell: |
+        kubectl create secret docker-registry ghcr-secret \
+          --docker-server=ghcr.io \
+          --docker-username=${GHCR_USERNAME} \
+          --docker-password=${GHCR_TOKEN} \
+          --docker-email=${GHCR_EMAIL} \
+          --dry-run=client -o yaml | kubectl apply -f -
+      environment:
+        GHCR_USERNAME: "{{ lookup('env', 'GHCR_USERNAME') }}"
+        GHCR_TOKEN: "{{ lookup('env', 'GHCR_TOKEN') }}"
+        GHCR_EMAIL: "{{ lookup('env', 'GHCR_EMAIL') }}"
+
+    - name: Apply all Kubernetes manifests
+      shell: kubectl apply -f /home/ubuntu/k8s/

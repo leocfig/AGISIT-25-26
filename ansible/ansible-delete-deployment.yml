@@ -1,0 +1,8 @@
+---
+- hosts: master
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+    - name: Delete all Kubernetes manifests
+      shell: sudo kubectl delete -f /home/ubuntu/k8s/

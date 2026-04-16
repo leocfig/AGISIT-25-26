@@ -1,0 +1,1565 @@
+2025-10-07 14:52:19,713 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-07 14:52:19,726 INFO supervisord started with pid 1
+2025-10-07 14:52:20,732 INFO spawned: 'sleep' with pid 8
+2025-10-07 14:52:20,740 INFO spawned: 'sshd' with pid 9
+2025-10-07 14:52:21,744 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-07 14:52:21,745 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-07 15:22:30,354 INFO reaped unknown pid 659 (exit status 0)
+2025-10-07 15:22:30,355 INFO reaped unknown pid 662 (exit status 0)
+2025-10-07 15:22:30,355 INFO reaped unknown pid 665 (exit status 0)
+2025-10-07 15:22:30,356 INFO reaped unknown pid 668 (exit status 0)
+2025-10-07 15:23:33,483 INFO reaped unknown pid 660 (exit status 255)
+2025-10-07 15:23:33,483 INFO reaped unknown pid 663 (exit status 255)
+2025-10-07 15:23:33,484 INFO reaped unknown pid 666 (exit status 255)
+2025-10-07 15:23:33,484 INFO reaped unknown pid 669 (exit status 255)
+2025-10-07 15:24:54,647 INFO reaped unknown pid 746 (exit status 0)
+2025-10-07 15:24:54,647 INFO reaped unknown pid 749 (exit status 0)
+2025-10-07 15:24:54,648 INFO reaped unknown pid 752 (exit status 0)
+2025-10-07 15:24:54,648 INFO reaped unknown pid 755 (exit status 0)
+2025-10-07 15:27:22,954 INFO reaped unknown pid 747 (exit status 255)
+2025-10-07 15:27:22,955 INFO reaped unknown pid 750 (exit status 255)
+2025-10-07 15:27:22,955 INFO reaped unknown pid 753 (exit status 255)
+2025-10-07 15:27:22,956 INFO reaped unknown pid 756 (exit status 255)
+2025-10-07 15:31:44,483 INFO reaped unknown pid 1229 (exit status 0)
+2025-10-07 15:33:21,674 INFO reaped unknown pid 1346 (exit status 0)
+2025-10-07 15:33:21,675 INFO reaped unknown pid 1348 (exit status 0)
+2025-10-07 15:33:21,675 INFO reaped unknown pid 1351 (exit status 0)
+2025-10-07 15:33:30,695 INFO reaped unknown pid 1230 (exit status 255)
+2025-10-07 15:34:32,819 INFO reaped unknown pid 1349 (exit status 255)
+2025-10-07 15:34:32,819 INFO reaped unknown pid 1352 (exit status 255)
+2025-10-07 15:34:33,822 INFO reaped unknown pid 1353 (exit status 255)
+2025-10-07 15:56:25,452 INFO reaped unknown pid 1465 (exit status 0)
+2025-10-07 16:04:35,429 INFO reaped unknown pid 1616 (exit status 255)
+2025-10-07 16:05:34,547 INFO reaped unknown pid 1466 (exit status 255)
+2025-10-07 16:06:16,630 INFO reaped unknown pid 1634 (exit status 0)
+2025-10-07 16:07:21,760 INFO reaped unknown pid 1635 (exit status 255)
+2025-10-07 16:14:54,671 INFO reaped unknown pid 1658 (exit status 0)
+2025-10-07 16:22:55,633 INFO reaped unknown pid 2181 (terminated by SIGPIPE)
+2025-10-07 16:23:53,749 INFO reaped unknown pid 1659 (exit status 255)
+2025-10-07 16:27:40,208 WARN received SIGTERM indicating exit request
+2025-10-07 16:27:40,208 INFO waiting for sleep, sshd to die
+2025-10-07 16:27:40,210 INFO stopped: sshd (exit status 0)
+2025-10-07 16:27:40,211 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-07 19:29:58,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-07 19:29:58,359 INFO supervisord started with pid 1
+2025-10-07 19:29:59,365 INFO spawned: 'sleep' with pid 7
+2025-10-07 19:29:59,377 INFO spawned: 'sshd' with pid 8
+2025-10-07 19:30:00,380 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-07 19:30:00,381 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-07 19:33:18,790 INFO reaped unknown pid 176 (exit status 0)
+2025-10-07 19:33:18,790 INFO reaped unknown pid 179 (exit status 0)
+2025-10-07 19:33:18,791 INFO reaped unknown pid 182 (exit status 0)
+2025-10-07 19:33:18,791 INFO reaped unknown pid 184 (exit status 0)
+2025-10-07 19:35:55,099 INFO reaped unknown pid 177 (exit status 255)
+2025-10-07 19:35:55,100 INFO reaped unknown pid 183 (exit status 255)
+2025-10-07 19:35:55,100 INFO reaped unknown pid 185 (exit status 255)
+2025-10-07 19:36:01,111 INFO reaped unknown pid 822 (exit status 0)
+2025-10-07 19:36:01,111 INFO reaped unknown pid 825 (exit status 0)
+2025-10-07 19:36:01,112 INFO reaped unknown pid 828 (exit status 0)
+2025-10-07 19:36:52,214 INFO reaped unknown pid 180 (exit status 255)
+2025-10-07 19:37:11,253 INFO reaped unknown pid 823 (exit status 255)
+2025-10-07 19:37:11,253 INFO reaped unknown pid 826 (exit status 255)
+2025-10-07 19:37:12,255 INFO reaped unknown pid 829 (exit status 255)
+2025-10-07 23:09:59,854 WARN received SIGTERM indicating exit request
+2025-10-07 23:09:59,862 INFO waiting for sleep, sshd to die
+2025-10-07 23:09:59,865 INFO stopped: sshd (exit status 0)
+2025-10-07 23:09:59,879 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-09 16:07:17,228 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-09 16:07:17,234 INFO supervisord started with pid 1
+2025-10-09 16:07:18,238 INFO spawned: 'sleep' with pid 7
+2025-10-09 16:07:18,243 INFO spawned: 'sshd' with pid 8
+2025-10-09 16:07:19,244 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 16:07:19,245 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 16:14:45,390 INFO reaped unknown pid 171 (exit status 0)
+2025-10-09 16:14:45,390 INFO reaped unknown pid 174 (exit status 0)
+2025-10-09 16:14:45,391 INFO reaped unknown pid 177 (exit status 0)
+2025-10-09 16:14:45,391 INFO reaped unknown pid 180 (exit status 0)
+2025-10-09 16:15:49,490 INFO reaped unknown pid 172 (exit status 255)
+2025-10-09 16:15:49,491 INFO reaped unknown pid 175 (exit status 255)
+2025-10-09 16:15:49,492 INFO reaped unknown pid 178 (exit status 255)
+2025-10-09 16:15:49,493 INFO reaped unknown pid 181 (exit status 255)
+2025-10-09 16:15:50,495 INFO reaped unknown pid 258 (exit status 0)
+2025-10-09 16:15:50,495 INFO reaped unknown pid 261 (exit status 0)
+2025-10-09 16:15:51,498 INFO reaped unknown pid 264 (exit status 0)
+2025-10-09 16:15:51,498 INFO reaped unknown pid 267 (exit status 0)
+2025-10-09 16:18:18,780 INFO reaped unknown pid 262 (exit status 255)
+2025-10-09 16:18:18,781 INFO reaped unknown pid 265 (exit status 255)
+2025-10-09 16:18:18,781 INFO reaped unknown pid 268 (exit status 255)
+2025-10-09 16:19:26,917 INFO reaped unknown pid 259 (exit status 255)
+2025-10-09 16:20:26,035 INFO reaped unknown pid 830 (exit status 0)
+2025-10-09 16:20:26,036 INFO reaped unknown pid 833 (exit status 0)
+2025-10-09 16:20:26,036 INFO reaped unknown pid 836 (exit status 0)
+2025-10-09 16:20:43,067 INFO reaped unknown pid 937 (exit status 0)
+2025-10-09 16:21:35,171 INFO reaped unknown pid 831 (exit status 255)
+2025-10-09 16:21:35,171 INFO reaped unknown pid 834 (exit status 255)
+2025-10-09 16:21:35,171 INFO reaped unknown pid 837 (exit status 255)
+2025-10-09 16:22:46,316 INFO reaped unknown pid 938 (exit status 255)
+2025-10-09 16:28:04,950 INFO reaped unknown pid 1105 (exit status 0)
+2025-10-09 16:29:48,149 INFO reaped unknown pid 1106 (exit status 255)
+2025-10-09 16:42:33,674 INFO reaped unknown pid 1270 (exit status 0)
+2025-10-09 16:44:29,903 INFO reaped unknown pid 1271 (exit status 255)
+2025-10-09 17:11:35,173 INFO reaped unknown pid 1469 (exit status 0)
+2025-10-09 17:12:38,297 INFO reaped unknown pid 1470 (exit status 255)
+2025-10-09 17:13:50,443 WARN received SIGTERM indicating exit request
+2025-10-09 17:13:50,443 INFO waiting for sleep, sshd to die
+2025-10-09 17:13:50,445 INFO stopped: sshd (exit status 0)
+2025-10-09 17:13:50,445 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-09 17:46:33,444 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-09 17:46:33,452 INFO supervisord started with pid 1
+2025-10-09 17:46:34,457 INFO spawned: 'sleep' with pid 7
+2025-10-09 17:46:34,470 INFO spawned: 'sshd' with pid 8
+2025-10-09 17:46:35,474 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 17:46:35,474 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 17:51:40,086 INFO reaped unknown pid 171 (exit status 0)
+2025-10-09 17:51:40,087 INFO reaped unknown pid 174 (exit status 0)
+2025-10-09 17:51:40,088 INFO reaped unknown pid 177 (exit status 0)
+2025-10-09 17:51:40,089 INFO reaped unknown pid 180 (exit status 0)
+2025-10-09 17:54:31,418 INFO reaped unknown pid 172 (exit status 255)
+2025-10-09 17:54:31,418 INFO reaped unknown pid 178 (exit status 255)
+2025-10-09 17:54:31,418 INFO reaped unknown pid 181 (exit status 255)
+2025-10-09 17:54:44,445 INFO reaped unknown pid 818 (exit status 0)
+2025-10-09 17:54:44,445 INFO reaped unknown pid 821 (exit status 0)
+2025-10-09 17:54:44,445 INFO reaped unknown pid 824 (exit status 0)
+2025-10-09 17:55:54,576 INFO reaped unknown pid 822 (exit status 255)
+2025-10-09 17:55:57,591 INFO reaped unknown pid 819 (exit status 255)
+2025-10-09 17:55:57,591 INFO reaped unknown pid 825 (exit status 255)
+2025-10-09 17:57:08,729 INFO reaped unknown pid 175 (exit status 255)
+2025-10-09 18:26:30,224 INFO reaped unknown pid 1101 (exit status 0)
+2025-10-09 18:28:34,469 INFO reaped unknown pid 1102 (exit status 255)
+2025-10-09 18:30:47,735 INFO reaped unknown pid 1270 (exit status 0)
+2025-10-09 18:32:13,908 INFO reaped unknown pid 1271 (exit status 255)
+2025-10-09 18:46:48,655 INFO reaped unknown pid 1411 (exit status 0)
+2025-10-09 18:49:09,938 INFO reaped unknown pid 1412 (exit status 255)
+2025-10-09 18:49:18,955 INFO reaped unknown pid 1567 (exit status 0)
+2025-10-09 18:50:58,152 INFO reaped unknown pid 1568 (exit status 255)
+2025-10-09 18:52:57,389 INFO reaped unknown pid 1734 (exit status 0)
+2025-10-09 18:54:39,593 INFO reaped unknown pid 1735 (exit status 255)
+2025-10-09 18:59:42,200 INFO reaped unknown pid 1901 (exit status 0)
+2025-10-09 19:00:50,337 INFO reaped unknown pid 1902 (exit status 255)
+2025-10-09 19:05:56,956 INFO reaped unknown pid 1925 (exit status 0)
+2025-10-09 19:07:29,142 INFO reaped unknown pid 1926 (exit status 255)
+2025-10-09 19:12:29,749 INFO reaped unknown pid 2080 (exit status 0)
+2025-10-09 19:15:20,086 INFO reaped unknown pid 2081 (exit status 255)
+2025-10-09 19:21:21,814 INFO reaped unknown pid 2247 (exit status 0)
+2025-10-09 19:22:28,950 INFO reaped unknown pid 2248 (exit status 255)
+2025-10-09 19:24:30,194 INFO reaped unknown pid 2271 (exit status 0)
+2025-10-09 19:27:04,502 INFO reaped unknown pid 2272 (exit status 255)
+2025-10-09 19:29:37,810 INFO reaped unknown pid 2579 (exit status 0)
+2025-10-09 19:31:21,017 INFO reaped unknown pid 2580 (exit status 255)
+2025-10-09 19:41:37,253 INFO reaped unknown pid 2755 (exit status 0)
+2025-10-09 19:43:20,463 INFO reaped unknown pid 2756 (exit status 255)
+2025-10-09 19:45:56,777 INFO reaped unknown pid 2922 (exit status 0)
+2025-10-09 19:47:38,976 INFO reaped unknown pid 2923 (exit status 255)
+2025-10-09 19:52:11,521 INFO reaped unknown pid 3089 (exit status 0)
+2025-10-09 19:53:14,646 INFO reaped unknown pid 3090 (exit status 255)
+2025-10-09 19:53:55,727 WARN received SIGTERM indicating exit request
+2025-10-09 19:53:55,728 INFO waiting for sleep, sshd to die
+2025-10-09 19:53:55,730 INFO stopped: sshd (exit status 0)
+2025-10-09 19:53:55,738 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-09 21:30:50,399 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-09 21:30:50,408 INFO supervisord started with pid 1
+2025-10-09 21:30:51,413 INFO spawned: 'sleep' with pid 7
+2025-10-09 21:30:51,418 INFO spawned: 'sshd' with pid 8
+2025-10-09 21:30:52,421 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 21:30:52,422 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-09 21:33:32,737 INFO reaped unknown pid 170 (exit status 0)
+2025-10-09 21:33:32,738 INFO reaped unknown pid 173 (exit status 0)
+2025-10-09 21:33:32,738 INFO reaped unknown pid 176 (exit status 0)
+2025-10-09 21:33:32,739 INFO reaped unknown pid 179 (exit status 0)
+2025-10-09 21:36:08,040 INFO reaped unknown pid 171 (exit status 255)
+2025-10-09 21:36:08,041 INFO reaped unknown pid 174 (exit status 255)
+2025-10-09 21:36:09,043 INFO reaped unknown pid 180 (exit status 255)
+2025-10-09 21:43:20,899 INFO reaped unknown pid 177 (exit status 255)
+2025-10-09 21:45:20,142 INFO reaped unknown pid 975 (exit status 0)
+2025-10-09 21:45:20,143 INFO reaped unknown pid 978 (exit status 0)
+2025-10-09 21:45:20,144 INFO reaped unknown pid 981 (exit status 0)
+2025-10-09 21:45:42,188 INFO reaped unknown pid 1082 (exit status 0)
+2025-10-09 21:46:31,278 INFO reaped unknown pid 976 (exit status 255)
+2025-10-09 21:46:31,279 INFO reaped unknown pid 979 (exit status 255)
+2025-10-09 21:46:31,280 INFO reaped unknown pid 982 (exit status 255)
+2025-10-09 21:47:44,426 INFO reaped unknown pid 1083 (exit status 255)
+2025-10-09 22:22:08,553 INFO reaped unknown pid 1237 (exit status 0)
+2025-10-09 22:24:00,783 INFO reaped unknown pid 1238 (exit status 255)
+2025-10-09 22:34:16,033 INFO reaped unknown pid 1399 (exit status 0)
+2025-10-09 22:35:23,167 INFO reaped unknown pid 1400 (exit status 255)
+2025-10-09 22:36:48,339 WARN received SIGTERM indicating exit request
+2025-10-09 22:36:48,340 INFO waiting for sleep, sshd to die
+2025-10-09 22:36:48,342 INFO stopped: sshd (exit status 0)
+2025-10-09 22:36:48,345 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 12:43:30,713 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 12:43:30,719 INFO supervisord started with pid 1
+2025-10-11 12:43:31,724 INFO spawned: 'sleep' with pid 7
+2025-10-11 12:43:31,734 INFO spawned: 'sshd' with pid 8
+2025-10-11 12:43:32,738 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 12:43:32,739 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 12:52:20,793 WARN received SIGTERM indicating exit request
+2025-10-11 12:52:20,794 INFO waiting for sleep, sshd to die
+2025-10-11 12:52:20,796 INFO stopped: sshd (exit status 0)
+2025-10-11 12:52:20,798 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 12:52:27,009 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 12:52:27,012 INFO supervisord started with pid 1
+2025-10-11 12:52:28,016 INFO spawned: 'sleep' with pid 7
+2025-10-11 12:52:28,018 INFO spawned: 'sshd' with pid 8
+2025-10-11 12:52:29,021 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 12:52:29,021 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 12:58:27,729 WARN received SIGTERM indicating exit request
+2025-10-11 12:58:27,730 INFO waiting for sleep, sshd to die
+2025-10-11 12:58:27,732 INFO stopped: sshd (exit status 0)
+2025-10-11 12:58:27,733 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 12:58:31,609 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 12:58:31,612 INFO supervisord started with pid 1
+2025-10-11 12:58:32,616 INFO spawned: 'sleep' with pid 7
+2025-10-11 12:58:32,619 INFO spawned: 'sshd' with pid 8
+2025-10-11 12:58:33,621 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 12:58:33,622 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 13:05:45,475 WARN received SIGTERM indicating exit request
+2025-10-11 13:05:45,476 INFO waiting for sleep, sshd to die
+2025-10-11 13:05:45,478 INFO stopped: sshd (exit status 0)
+2025-10-11 13:05:45,479 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 13:05:48,648 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 13:05:48,654 INFO supervisord started with pid 1
+2025-10-11 13:05:49,658 INFO spawned: 'sleep' with pid 6
+2025-10-11 13:05:49,661 INFO spawned: 'sshd' with pid 7
+2025-10-11 13:05:50,664 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 13:05:50,664 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 13:08:22,963 WARN received SIGTERM indicating exit request
+2025-10-11 13:08:22,963 INFO waiting for sleep, sshd to die
+2025-10-11 13:08:22,970 INFO stopped: sshd (exit status 0)
+2025-10-11 13:08:22,972 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 14:18:02,714 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 14:18:02,719 INFO supervisord started with pid 1
+2025-10-11 14:18:03,724 INFO spawned: 'sleep' with pid 7
+2025-10-11 14:18:03,730 INFO spawned: 'sshd' with pid 8
+2025-10-11 14:18:04,734 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:18:04,734 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:22:50,307 WARN received SIGTERM indicating exit request
+2025-10-11 14:22:50,315 INFO waiting for sleep, sshd to die
+2025-10-11 14:22:50,316 INFO stopped: sshd (exit status 0)
+2025-10-11 14:22:50,317 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 14:22:56,090 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 14:22:56,093 INFO supervisord started with pid 1
+2025-10-11 14:22:57,097 INFO spawned: 'sleep' with pid 6
+2025-10-11 14:22:57,100 INFO spawned: 'sshd' with pid 7
+2025-10-11 14:22:58,103 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:22:58,104 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:30:04,949 INFO reaped unknown pid 290 (exit status 0)
+2025-10-11 14:30:04,949 INFO reaped unknown pid 293 (exit status 0)
+2025-10-11 14:30:04,950 INFO reaped unknown pid 296 (exit status 0)
+2025-10-11 14:30:04,950 INFO reaped unknown pid 299 (exit status 0)
+2025-10-11 14:31:00,058 INFO reaped unknown pid 291 (exit status 255)
+2025-10-11 14:31:00,058 INFO reaped unknown pid 294 (exit status 255)
+2025-10-11 14:31:00,059 INFO reaped unknown pid 297 (exit status 255)
+2025-10-11 14:31:00,059 INFO reaped unknown pid 300 (exit status 255)
+2025-10-11 14:31:39,138 WARN received SIGTERM indicating exit request
+2025-10-11 14:31:39,139 INFO waiting for sleep, sshd to die
+2025-10-11 14:31:39,140 INFO stopped: sshd (exit status 0)
+2025-10-11 14:31:39,142 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 14:31:44,167 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 14:31:44,171 INFO supervisord started with pid 1
+2025-10-11 14:31:45,175 INFO spawned: 'sleep' with pid 7
+2025-10-11 14:31:45,178 INFO spawned: 'sshd' with pid 8
+2025-10-11 14:31:46,181 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:31:46,182 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:33:16,358 INFO reaped unknown pid 240 (exit status 0)
+2025-10-11 14:33:16,358 INFO reaped unknown pid 243 (exit status 0)
+2025-10-11 14:33:16,358 INFO reaped unknown pid 246 (exit status 0)
+2025-10-11 14:33:16,358 INFO reaped unknown pid 249 (exit status 0)
+2025-10-11 14:36:50,776 INFO reaped unknown pid 244 (exit status 255)
+2025-10-11 14:36:51,778 INFO reaped unknown pid 241 (exit status 255)
+2025-10-11 14:36:51,779 INFO reaped unknown pid 247 (exit status 255)
+2025-10-11 14:37:33,863 INFO reaped unknown pid 250 (exit status 255)
+2025-10-11 14:40:37,226 WARN received SIGTERM indicating exit request
+2025-10-11 14:40:37,226 INFO waiting for sleep, sshd to die
+2025-10-11 14:40:37,228 INFO stopped: sshd (exit status 0)
+2025-10-11 14:40:37,229 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 14:40:57,079 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 14:40:57,083 INFO supervisord started with pid 1
+2025-10-11 14:40:58,086 INFO spawned: 'sleep' with pid 22
+2025-10-11 14:40:58,088 INFO spawned: 'sshd' with pid 23
+2025-10-11 14:40:59,090 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:40:59,090 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:43:20,366 WARN received SIGTERM indicating exit request
+2025-10-11 14:43:20,367 INFO waiting for sleep, sshd to die
+2025-10-11 14:43:20,369 INFO stopped: sshd (exit status 0)
+2025-10-11 14:43:20,370 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 14:43:25,641 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 14:43:25,644 INFO supervisord started with pid 1
+2025-10-11 14:43:26,648 INFO spawned: 'sleep' with pid 24
+2025-10-11 14:43:26,651 INFO spawned: 'sshd' with pid 25
+2025-10-11 14:43:27,654 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:43:27,654 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 14:44:45,807 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 14:44:45,808 INFO reaped unknown pid 247 (exit status 0)
+2025-10-11 14:44:45,808 INFO reaped unknown pid 250 (exit status 0)
+2025-10-11 14:44:45,809 INFO reaped unknown pid 253 (exit status 0)
+2025-10-11 14:48:22,225 INFO reaped unknown pid 248 (exit status 255)
+2025-10-11 14:48:23,227 INFO reaped unknown pid 251 (exit status 255)
+2025-10-11 14:48:23,228 INFO reaped unknown pid 254 (exit status 255)
+2025-10-11 14:49:31,365 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 15:03:49,088 WARN received SIGTERM indicating exit request
+2025-10-11 15:03:49,088 INFO waiting for sleep, sshd to die
+2025-10-11 15:03:49,090 INFO stopped: sshd (exit status 0)
+2025-10-11 15:03:49,091 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 15:03:52,799 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 15:03:52,807 INFO supervisord started with pid 1
+2025-10-11 15:03:53,811 INFO spawned: 'sleep' with pid 22
+2025-10-11 15:03:53,814 INFO spawned: 'sshd' with pid 23
+2025-10-11 15:03:54,818 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 15:03:54,819 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 15:08:14,338 INFO reaped unknown pid 238 (exit status 0)
+2025-10-11 15:08:14,338 INFO reaped unknown pid 241 (exit status 0)
+2025-10-11 15:08:14,343 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 15:08:15,345 INFO reaped unknown pid 247 (exit status 0)
+2025-10-11 15:11:50,771 INFO reaped unknown pid 239 (exit status 255)
+2025-10-11 15:11:50,772 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 15:11:50,772 INFO reaped unknown pid 248 (exit status 255)
+2025-10-11 15:13:02,915 INFO reaped unknown pid 242 (exit status 255)
+2025-10-11 15:16:39,348 INFO reaped unknown pid 1153 (exit status 0)
+2025-10-11 15:17:21,431 INFO reaped unknown pid 1154 (exit status 255)
+2025-10-11 15:18:13,536 WARN received SIGTERM indicating exit request
+2025-10-11 15:18:13,537 INFO waiting for sleep, sshd to die
+2025-10-11 15:18:13,539 INFO stopped: sshd (exit status 0)
+2025-10-11 15:18:13,540 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 15:21:35,863 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 15:21:35,869 INFO supervisord started with pid 1
+2025-10-11 15:21:36,874 INFO spawned: 'sleep' with pid 23
+2025-10-11 15:21:36,877 INFO spawned: 'sshd' with pid 24
+2025-10-11 15:21:37,880 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 15:21:37,880 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 15:23:25,089 INFO reaped unknown pid 240 (exit status 0)
+2025-10-11 15:23:25,089 INFO reaped unknown pid 243 (exit status 0)
+2025-10-11 15:23:25,090 INFO reaped unknown pid 246 (exit status 0)
+2025-10-11 15:23:25,090 INFO reaped unknown pid 249 (exit status 0)
+2025-10-11 15:27:01,527 INFO reaped unknown pid 241 (exit status 255)
+2025-10-11 15:27:01,528 INFO reaped unknown pid 247 (exit status 255)
+2025-10-11 15:27:01,528 INFO reaped unknown pid 250 (exit status 255)
+2025-10-11 15:28:14,672 INFO reaped unknown pid 244 (exit status 255)
+2025-10-11 15:28:47,738 INFO reaped unknown pid 1155 (exit status 0)
+2025-10-11 15:29:32,826 INFO reaped unknown pid 1156 (exit status 255)
+2025-10-11 15:31:42,084 WARN received SIGTERM indicating exit request
+2025-10-11 15:31:42,084 INFO waiting for sleep, sshd to die
+2025-10-11 15:31:42,086 INFO stopped: sshd (exit status 0)
+2025-10-11 15:31:42,088 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 16:44:21,523 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 16:44:21,528 INFO supervisord started with pid 1
+2025-10-11 16:44:22,532 INFO spawned: 'sleep' with pid 23
+2025-10-11 16:44:22,537 INFO spawned: 'sshd' with pid 24
+2025-10-11 16:44:23,539 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 16:44:23,540 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 16:45:53,717 INFO reaped unknown pid 238 (exit status 0)
+2025-10-11 16:45:53,717 INFO reaped unknown pid 242 (exit status 0)
+2025-10-11 16:45:53,717 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 16:45:53,718 INFO reaped unknown pid 247 (exit status 0)
+2025-10-11 16:49:27,129 INFO reaped unknown pid 243 (exit status 255)
+2025-10-11 16:49:28,131 INFO reaped unknown pid 239 (exit status 255)
+2025-10-11 16:49:28,132 INFO reaped unknown pid 248 (exit status 255)
+2025-10-11 16:50:38,271 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 17:22:53,126 INFO reaped unknown pid 1173 (exit status 0)
+2025-10-11 17:24:09,279 INFO reaped unknown pid 1174 (exit status 255)
+2025-10-11 17:25:02,386 INFO reaped unknown pid 1203 (exit status 0)
+2025-10-11 17:25:02,387 INFO reaped unknown pid 1206 (exit status 0)
+2025-10-11 17:25:02,387 INFO reaped unknown pid 1209 (exit status 0)
+2025-10-11 17:25:02,387 INFO reaped unknown pid 1212 (exit status 0)
+2025-10-11 17:26:57,612 INFO reaped unknown pid 1204 (exit status 255)
+2025-10-11 17:26:57,612 INFO reaped unknown pid 1207 (exit status 255)
+2025-10-11 17:26:57,613 INFO reaped unknown pid 1210 (exit status 255)
+2025-10-11 17:27:50,715 INFO reaped unknown pid 1213 (exit status 255)
+2025-10-11 17:29:23,899 INFO reaped unknown pid 1851 (exit status 0)
+2025-10-11 17:29:23,899 INFO reaped unknown pid 1854 (exit status 0)
+2025-10-11 17:29:23,900 INFO reaped unknown pid 1857 (exit status 0)
+2025-10-11 17:30:21,011 INFO reaped unknown pid 1958 (exit status 0)
+2025-10-11 17:30:31,030 INFO reaped unknown pid 1852 (exit status 255)
+2025-10-11 17:30:31,030 INFO reaped unknown pid 1858 (exit status 255)
+2025-10-11 17:30:33,035 INFO reaped unknown pid 1855 (exit status 255)
+2025-10-11 17:31:10,107 INFO reaped unknown pid 1959 (exit status 255)
+2025-10-11 17:31:49,184 WARN received SIGTERM indicating exit request
+2025-10-11 17:31:49,184 INFO waiting for sleep, sshd to die
+2025-10-11 17:31:49,186 INFO stopped: sshd (exit status 0)
+2025-10-11 17:31:49,187 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 17:31:53,603 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 17:31:53,607 INFO supervisord started with pid 1
+2025-10-11 17:31:54,611 INFO spawned: 'sleep' with pid 23
+2025-10-11 17:31:54,614 INFO spawned: 'sshd' with pid 24
+2025-10-11 17:31:55,617 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 17:31:55,617 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 17:33:56,856 INFO reaped unknown pid 238 (exit status 0)
+2025-10-11 17:33:56,856 INFO reaped unknown pid 242 (exit status 0)
+2025-10-11 17:33:56,857 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 17:33:56,857 INFO reaped unknown pid 247 (exit status 0)
+2025-10-11 17:37:28,270 INFO reaped unknown pid 243 (exit status 255)
+2025-10-11 17:37:28,270 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 17:37:28,271 INFO reaped unknown pid 248 (exit status 255)
+2025-10-11 17:38:38,410 INFO reaped unknown pid 239 (exit status 255)
+2025-10-11 18:15:16,800 WARN received SIGTERM indicating exit request
+2025-10-11 18:15:16,801 INFO waiting for sleep, sshd to die
+2025-10-11 18:15:16,803 INFO stopped: sshd (exit status 0)
+2025-10-11 18:15:16,804 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 18:15:21,763 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 18:15:21,767 INFO supervisord started with pid 1
+2025-10-11 18:15:22,772 INFO spawned: 'sleep' with pid 23
+2025-10-11 18:15:22,775 INFO spawned: 'sshd' with pid 24
+2025-10-11 18:15:23,778 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 18:15:23,779 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 18:16:49,950 INFO reaped unknown pid 235 (exit status 0)
+2025-10-11 18:16:49,950 INFO reaped unknown pid 239 (exit status 0)
+2025-10-11 18:16:49,951 INFO reaped unknown pid 240 (exit status 0)
+2025-10-11 18:16:49,951 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 18:20:22,368 INFO reaped unknown pid 236 (exit status 255)
+2025-10-11 18:20:22,369 INFO reaped unknown pid 241 (exit status 255)
+2025-10-11 18:20:22,371 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 18:21:34,516 INFO reaped unknown pid 242 (exit status 255)
+2025-10-11 18:26:23,095 INFO reaped unknown pid 1151 (exit status 0)
+2025-10-11 18:27:06,182 INFO reaped unknown pid 1152 (exit status 255)
+2025-10-11 18:28:22,335 WARN received SIGTERM indicating exit request
+2025-10-11 18:28:22,336 INFO waiting for sleep, sshd to die
+2025-10-11 18:28:22,338 INFO stopped: sshd (exit status 0)
+2025-10-11 18:28:22,340 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 19:25:25,040 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 19:25:25,048 INFO supervisord started with pid 1
+2025-10-11 19:25:26,051 INFO spawned: 'sleep' with pid 22
+2025-10-11 19:25:26,054 INFO spawned: 'sshd' with pid 23
+2025-10-11 19:25:27,058 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:25:27,058 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:27:10,260 INFO reaped unknown pid 241 (exit status 0)
+2025-10-11 19:27:10,261 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 19:27:10,261 INFO reaped unknown pid 247 (exit status 0)
+2025-10-11 19:27:11,263 INFO reaped unknown pid 250 (exit status 0)
+2025-10-11 19:29:50,577 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 19:29:50,577 INFO reaped unknown pid 248 (exit status 255)
+2025-10-11 19:29:50,578 INFO reaped unknown pid 251 (exit status 255)
+2025-10-11 19:29:54,585 INFO reaped unknown pid 888 (exit status 0)
+2025-10-11 19:29:54,585 INFO reaped unknown pid 891 (exit status 0)
+2025-10-11 19:29:54,586 INFO reaped unknown pid 894 (exit status 0)
+2025-10-11 19:31:06,725 INFO reaped unknown pid 889 (exit status 255)
+2025-10-11 19:31:06,726 INFO reaped unknown pid 892 (exit status 255)
+2025-10-11 19:31:06,726 INFO reaped unknown pid 895 (exit status 255)
+2025-10-11 19:32:22,877 INFO reaped unknown pid 242 (exit status 255)
+2025-10-11 19:43:26,203 WARN received SIGTERM indicating exit request
+2025-10-11 19:43:26,203 INFO waiting for sleep, sshd to die
+2025-10-11 19:43:26,205 INFO stopped: sshd (exit status 0)
+2025-10-11 19:43:26,207 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 19:45:14,956 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 19:45:14,959 INFO supervisord started with pid 1
+2025-10-11 19:45:15,963 INFO spawned: 'sleep' with pid 23
+2025-10-11 19:45:15,966 INFO spawned: 'sshd' with pid 24
+2025-10-11 19:45:16,969 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:45:16,969 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:45:27,992 WARN received SIGTERM indicating exit request
+2025-10-11 19:45:27,993 INFO waiting for sleep, sshd to die
+2025-10-11 19:45:27,995 INFO stopped: sshd (exit status 0)
+2025-10-11 19:45:27,996 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 19:45:30,009 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 19:45:30,012 INFO supervisord started with pid 1
+2025-10-11 19:45:31,016 INFO spawned: 'sleep' with pid 23
+2025-10-11 19:45:31,019 INFO spawned: 'sshd' with pid 24
+2025-10-11 19:45:32,023 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:45:32,023 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 19:46:44,166 INFO reaped unknown pid 240 (exit status 0)
+2025-10-11 19:46:44,167 INFO reaped unknown pid 243 (exit status 0)
+2025-10-11 19:46:44,167 INFO reaped unknown pid 246 (exit status 0)
+2025-10-11 19:46:44,167 INFO reaped unknown pid 249 (exit status 0)
+2025-10-11 19:50:27,608 INFO reaped unknown pid 244 (exit status 255)
+2025-10-11 19:50:27,608 INFO reaped unknown pid 247 (exit status 255)
+2025-10-11 19:50:27,609 INFO reaped unknown pid 250 (exit status 255)
+2025-10-11 19:51:40,755 INFO reaped unknown pid 241 (exit status 255)
+2025-10-11 20:09:26,895 INFO reaped unknown pid 1177 (exit status 0)
+2025-10-11 20:11:22,119 INFO reaped unknown pid 1178 (exit status 255)
+2025-10-11 20:12:28,251 WARN received SIGTERM indicating exit request
+2025-10-11 20:12:28,252 INFO waiting for sleep, sshd to die
+2025-10-11 20:12:28,255 INFO stopped: sshd (exit status 0)
+2025-10-11 20:12:28,256 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 20:12:32,469 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 20:12:32,473 INFO supervisord started with pid 1
+2025-10-11 20:12:33,476 INFO spawned: 'sleep' with pid 22
+2025-10-11 20:12:33,479 INFO spawned: 'sshd' with pid 23
+2025-10-11 20:12:34,482 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 20:12:34,483 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 20:14:01,654 INFO reaped unknown pid 235 (exit status 0)
+2025-10-11 20:14:01,655 INFO reaped unknown pid 238 (exit status 0)
+2025-10-11 20:14:01,655 INFO reaped unknown pid 241 (exit status 0)
+2025-10-11 20:14:01,656 INFO reaped unknown pid 244 (exit status 0)
+2025-10-11 20:17:55,120 INFO reaped unknown pid 239 (exit status 255)
+2025-10-11 20:17:55,121 INFO reaped unknown pid 242 (exit status 255)
+2025-10-11 20:17:55,121 INFO reaped unknown pid 245 (exit status 255)
+2025-10-11 20:19:17,287 INFO reaped unknown pid 236 (exit status 255)
+2025-10-11 20:20:57,492 INFO reaped unknown pid 1153 (exit status 0)
+2025-10-11 20:22:46,736 INFO reaped unknown pid 1154 (exit status 255)
+2025-10-11 20:23:20,805 INFO reaped unknown pid 1309 (exit status 0)
+2025-10-11 20:25:00,003 INFO reaped unknown pid 1310 (exit status 255)
+2025-10-11 20:25:05,012 INFO reaped unknown pid 1449 (exit status 0)
+2025-10-11 20:26:48,218 INFO reaped unknown pid 1450 (exit status 255)
+2025-10-11 20:31:20,763 WARN received SIGTERM indicating exit request
+2025-10-11 20:31:20,764 INFO waiting for sleep, sshd to die
+2025-10-11 20:31:20,766 INFO stopped: sshd (exit status 0)
+2025-10-11 20:31:20,767 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 21:14:44,629 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 21:14:44,634 INFO supervisord started with pid 1
+2025-10-11 21:14:45,639 INFO spawned: 'sleep' with pid 23
+2025-10-11 21:14:45,643 INFO spawned: 'sshd' with pid 24
+2025-10-11 21:14:46,647 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:14:46,648 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:20:23,313 WARN received SIGTERM indicating exit request
+2025-10-11 21:20:23,313 INFO waiting for sleep, sshd to die
+2025-10-11 21:20:23,317 INFO stopped: sshd (exit status 0)
+2025-10-11 21:20:23,318 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 21:20:26,359 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 21:20:26,362 INFO supervisord started with pid 1
+2025-10-11 21:20:27,366 INFO spawned: 'sleep' with pid 23
+2025-10-11 21:20:27,368 INFO spawned: 'sshd' with pid 24
+2025-10-11 21:20:28,370 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:20:28,371 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:21:16,466 WARN received SIGTERM indicating exit request
+2025-10-11 21:21:16,467 INFO waiting for sleep, sshd to die
+2025-10-11 21:21:16,468 INFO stopped: sshd (exit status 0)
+2025-10-11 21:21:16,469 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-11 21:21:18,484 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-11 21:21:18,488 INFO supervisord started with pid 1
+2025-10-11 21:21:19,491 INFO spawned: 'sleep' with pid 23
+2025-10-11 21:21:19,495 INFO spawned: 'sshd' with pid 24
+2025-10-11 21:21:20,499 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:21:20,499 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-11 21:22:19,613 INFO reaped unknown pid 239 (exit status 0)
+2025-10-11 21:22:19,613 INFO reaped unknown pid 242 (exit status 0)
+2025-10-11 21:22:19,613 INFO reaped unknown pid 245 (exit status 0)
+2025-10-11 21:22:19,614 INFO reaped unknown pid 248 (exit status 0)
+2025-10-11 21:25:47,017 INFO reaped unknown pid 240 (exit status 255)
+2025-10-11 21:25:47,017 INFO reaped unknown pid 243 (exit status 255)
+2025-10-11 21:25:47,018 INFO reaped unknown pid 249 (exit status 255)
+2025-10-11 21:26:57,152 INFO reaped unknown pid 246 (exit status 255)
+2025-10-11 21:31:42,715 INFO reaped unknown pid 1173 (exit status 0)
+2025-10-11 21:33:10,883 INFO reaped unknown pid 1174 (exit status 255)
+2025-10-11 21:35:43,182 INFO reaped unknown pid 1308 (exit status 0)
+2025-10-11 21:37:56,439 INFO reaped unknown pid 1309 (exit status 255)
+2025-10-11 22:05:29,739 INFO reaped unknown pid 1597 (exit status 0)
+2025-10-11 22:06:58,916 INFO reaped unknown pid 1598 (exit status 255)
+2025-10-11 22:22:46,821 INFO reaped unknown pid 1743 (exit status 0)
+2025-10-11 22:24:14,995 INFO reaped unknown pid 1744 (exit status 255)
+2025-10-11 22:27:48,418 INFO reaped unknown pid 1889 (exit status 0)
+2025-10-11 22:29:16,592 INFO reaped unknown pid 1890 (exit status 255)
+2025-10-11 22:41:17,033 WARN received SIGTERM indicating exit request
+2025-10-11 22:41:17,033 INFO waiting for sleep, sshd to die
+2025-10-11 22:41:17,035 INFO stopped: sshd (exit status 0)
+2025-10-11 22:41:17,036 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 18:56:38,892 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 18:56:38,901 INFO supervisord started with pid 1
+2025-10-12 18:56:39,906 INFO spawned: 'sleep' with pid 23
+2025-10-12 18:56:39,911 INFO spawned: 'sshd' with pid 24
+2025-10-12 18:56:40,917 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 18:56:40,918 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 18:58:15,106 INFO reaped unknown pid 241 (exit status 0)
+2025-10-12 18:58:15,108 INFO reaped unknown pid 244 (exit status 0)
+2025-10-12 18:58:15,119 INFO reaped unknown pid 247 (exit status 0)
+2025-10-12 18:58:15,123 INFO reaped unknown pid 250 (exit status 0)
+2025-10-12 19:01:35,515 INFO reaped unknown pid 242 (exit status 255)
+2025-10-12 19:01:49,550 INFO reaped unknown pid 245 (exit status 255)
+2025-10-12 19:01:49,551 INFO reaped unknown pid 248 (exit status 255)
+2025-10-12 19:01:49,551 INFO reaped unknown pid 251 (exit status 255)
+2025-10-12 19:03:35,759 WARN received SIGTERM indicating exit request
+2025-10-12 19:03:35,760 INFO waiting for sleep, sshd to die
+2025-10-12 19:03:35,762 INFO stopped: sshd (exit status 0)
+2025-10-12 19:03:35,763 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 19:03:52,261 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 19:03:52,268 INFO supervisord started with pid 1
+2025-10-12 19:03:53,273 INFO spawned: 'sleep' with pid 21
+2025-10-12 19:03:53,287 INFO spawned: 'sshd' with pid 22
+2025-10-12 19:03:54,293 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 19:03:54,296 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 19:05:05,435 INFO reaped unknown pid 235 (exit status 0)
+2025-10-12 19:05:05,436 INFO reaped unknown pid 238 (exit status 0)
+2025-10-12 19:05:05,436 INFO reaped unknown pid 241 (exit status 0)
+2025-10-12 19:06:10,560 INFO reaped unknown pid 236 (exit status 255)
+2025-10-12 19:06:10,560 INFO reaped unknown pid 239 (exit status 255)
+2025-10-12 19:06:10,561 INFO reaped unknown pid 242 (exit status 255)
+2025-10-12 19:08:31,826 WARN received SIGTERM indicating exit request
+2025-10-12 19:08:31,827 INFO waiting for sleep, sshd to die
+2025-10-12 19:08:31,828 INFO stopped: sshd (exit status 0)
+2025-10-12 19:08:31,829 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 19:08:36,857 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 19:08:36,864 INFO supervisord started with pid 1
+2025-10-12 19:08:37,868 INFO spawned: 'sleep' with pid 23
+2025-10-12 19:08:37,871 INFO spawned: 'sshd' with pid 24
+2025-10-12 19:08:38,874 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 19:08:38,875 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 19:09:51,019 INFO reaped unknown pid 237 (exit status 0)
+2025-10-12 19:09:51,019 INFO reaped unknown pid 240 (exit status 0)
+2025-10-12 19:09:51,020 INFO reaped unknown pid 243 (exit status 0)
+2025-10-12 19:09:51,020 INFO reaped unknown pid 246 (exit status 0)
+2025-10-12 19:13:27,461 INFO reaped unknown pid 238 (exit status 255)
+2025-10-12 19:13:27,462 INFO reaped unknown pid 241 (exit status 255)
+2025-10-12 19:13:27,462 INFO reaped unknown pid 244 (exit status 255)
+2025-10-12 19:13:33,474 INFO reaped unknown pid 247 (exit status 255)
+2025-10-12 19:16:34,834 INFO reaped unknown pid 1010 (exit status 0)
+2025-10-12 19:17:42,966 INFO reaped unknown pid 1011 (exit status 255)
+2025-10-12 19:19:17,159 INFO reaped unknown pid 1050 (exit status 0)
+2025-10-12 19:20:40,327 INFO reaped unknown pid 1051 (exit status 255)
+2025-10-12 19:23:35,690 INFO reaped unknown pid 1122 (exit status 0)
+2025-10-12 19:24:54,856 INFO reaped unknown pid 1123 (exit status 255)
+2025-10-12 19:27:01,110 INFO reaped unknown pid 1201 (exit status 0)
+2025-10-12 19:29:42,430 INFO reaped unknown pid 1202 (exit status 255)
+2025-10-12 19:39:34,613 INFO reaped unknown pid 1385 (exit status 0)
+2025-10-12 19:40:56,776 INFO reaped unknown pid 1386 (exit status 255)
+2025-10-12 19:43:07,039 INFO reaped unknown pid 1480 (exit status 0)
+2025-10-12 19:44:31,209 INFO reaped unknown pid 1481 (exit status 255)
+2025-10-12 19:45:03,280 INFO reaped unknown pid 1575 (exit status 0)
+2025-10-12 19:46:22,438 INFO reaped unknown pid 1576 (exit status 255)
+2025-10-12 19:57:50,818 INFO reaped unknown pid 1658 (exit status 0)
+2025-10-12 20:00:21,118 INFO reaped unknown pid 1659 (exit status 255)
+2025-10-12 20:03:30,497 INFO reaped unknown pid 1845 (exit status 0)
+2025-10-12 20:05:40,754 INFO reaped unknown pid 1846 (exit status 255)
+2025-10-12 20:05:41,757 INFO reaped unknown pid 2032 (exit status 0)
+2025-10-12 20:07:07,926 INFO reaped unknown pid 2033 (exit status 255)
+2025-10-12 20:22:11,716 INFO reaped unknown pid 2127 (exit status 0)
+2025-10-12 20:24:12,958 INFO reaped unknown pid 2128 (exit status 255)
+2025-10-12 21:00:51,367 WARN received SIGTERM indicating exit request
+2025-10-12 21:00:51,369 INFO waiting for sleep, sshd to die
+2025-10-12 21:00:51,370 INFO stopped: sshd (exit status 0)
+2025-10-12 21:00:51,371 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 21:00:54,958 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 21:00:54,961 INFO supervisord started with pid 1
+2025-10-12 21:00:55,965 INFO spawned: 'sleep' with pid 23
+2025-10-12 21:00:55,967 INFO spawned: 'sshd' with pid 24
+2025-10-12 21:00:56,969 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 21:00:56,970 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 21:02:11,115 INFO reaped unknown pid 235 (exit status 0)
+2025-10-12 21:02:11,115 INFO reaped unknown pid 238 (exit status 0)
+2025-10-12 21:02:12,117 INFO reaped unknown pid 241 (exit status 0)
+2025-10-12 21:02:12,118 INFO reaped unknown pid 244 (exit status 0)
+2025-10-12 21:02:44,181 INFO reaped unknown pid 569 (exit status 255)
+2025-10-12 21:02:44,181 INFO reaped unknown pid 570 (exit status 255)
+2025-10-12 21:02:44,181 INFO reaped unknown pid 571 (exit status 255)
+2025-10-12 21:02:44,181 INFO reaped unknown pid 572 (exit status 255)
+2025-10-12 21:03:30,272 INFO reaped unknown pid 236 (exit status 255)
+2025-10-12 21:03:30,272 INFO reaped unknown pid 239 (exit status 255)
+2025-10-12 21:03:30,273 INFO reaped unknown pid 242 (exit status 255)
+2025-10-12 21:03:30,273 INFO reaped unknown pid 245 (exit status 255)
+2025-10-12 21:07:18,728 WARN received SIGTERM indicating exit request
+2025-10-12 21:07:18,729 INFO waiting for sleep, sshd to die
+2025-10-12 21:07:18,733 INFO stopped: sshd (exit status 0)
+2025-10-12 21:07:18,737 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 21:07:39,130 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 21:07:39,135 INFO supervisord started with pid 1
+2025-10-12 21:07:40,138 INFO spawned: 'sleep' with pid 23
+2025-10-12 21:07:40,140 INFO spawned: 'sshd' with pid 24
+2025-10-12 21:07:41,143 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 21:07:41,144 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 21:09:00,302 INFO reaped unknown pid 240 (exit status 0)
+2025-10-12 21:09:00,302 INFO reaped unknown pid 243 (exit status 0)
+2025-10-12 21:09:00,303 INFO reaped unknown pid 246 (exit status 0)
+2025-10-12 21:09:00,303 INFO reaped unknown pid 249 (exit status 0)
+2025-10-12 21:12:30,714 INFO reaped unknown pid 244 (exit status 255)
+2025-10-12 21:12:30,715 INFO reaped unknown pid 250 (exit status 255)
+2025-10-12 21:12:31,716 INFO reaped unknown pid 241 (exit status 255)
+2025-10-12 21:14:22,941 INFO reaped unknown pid 247 (exit status 255)
+2025-10-12 21:24:16,132 INFO reaped unknown pid 1281 (exit status 0)
+2025-10-12 21:28:42,656 INFO reaped unknown pid 1282 (exit status 255)
+2025-10-12 21:38:22,835 INFO reaped unknown pid 1715 (exit status 0)
+2025-10-12 21:41:08,169 INFO reaped unknown pid 1716 (exit status 255)
+2025-10-12 21:43:48,488 INFO reaped unknown pid 1968 (exit status 0)
+2025-10-12 21:45:25,682 INFO reaped unknown pid 1969 (exit status 255)
+2025-10-12 21:49:02,114 INFO reaped unknown pid 2155 (exit status 0)
+2025-10-12 21:51:28,403 INFO reaped unknown pid 2156 (exit status 255)
+2025-10-12 21:52:50,565 INFO reaped unknown pid 2481 (exit status 0)
+2025-10-12 21:54:57,819 INFO reaped unknown pid 2482 (exit status 255)
+2025-10-12 21:57:41,147 INFO reaped unknown pid 2606 (exit status 0)
+2025-10-12 22:00:03,429 INFO reaped unknown pid 2607 (exit status 255)
+2025-10-12 22:00:51,526 WARN received SIGTERM indicating exit request
+2025-10-12 22:00:51,526 INFO waiting for sleep, sshd to die
+2025-10-12 22:00:51,528 INFO stopped: sshd (exit status 0)
+2025-10-12 22:00:51,529 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 22:00:56,448 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 22:00:56,451 INFO supervisord started with pid 1
+2025-10-12 22:00:57,454 INFO spawned: 'sleep' with pid 23
+2025-10-12 22:00:57,458 INFO spawned: 'sshd' with pid 24
+2025-10-12 22:00:58,461 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:00:58,461 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:01:57,575 INFO reaped unknown pid 239 (exit status 0)
+2025-10-12 22:01:57,576 INFO reaped unknown pid 242 (exit status 0)
+2025-10-12 22:01:57,576 INFO reaped unknown pid 245 (exit status 0)
+2025-10-12 22:01:57,577 INFO reaped unknown pid 248 (exit status 0)
+2025-10-12 22:05:27,992 INFO reaped unknown pid 240 (exit status 255)
+2025-10-12 22:05:27,993 INFO reaped unknown pid 243 (exit status 255)
+2025-10-12 22:05:27,999 INFO reaped unknown pid 246 (exit status 255)
+2025-10-12 22:06:47,156 INFO reaped unknown pid 249 (exit status 255)
+2025-10-12 22:08:10,325 INFO reaped unknown pid 1091 (exit status 0)
+2025-10-12 22:08:49,403 INFO reaped unknown pid 1173 (exit status 255)
+2025-10-12 22:08:49,403 INFO reaped unknown pid 1172 (terminated by SIGPIPE)
+2025-10-12 22:10:51,650 INFO reaped unknown pid 1092 (exit status 255)
+2025-10-12 22:11:51,770 INFO reaped unknown pid 1252 (exit status 0)
+2025-10-12 22:13:06,927 INFO reaped unknown pid 1253 (exit status 255)
+2025-10-12 22:14:35,103 WARN received SIGTERM indicating exit request
+2025-10-12 22:14:35,104 INFO waiting for sleep, sshd to die
+2025-10-12 22:14:35,105 INFO stopped: sshd (exit status 0)
+2025-10-12 22:14:35,106 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 22:14:38,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 22:14:38,359 INFO supervisord started with pid 1
+2025-10-12 22:14:39,363 INFO spawned: 'sleep' with pid 23
+2025-10-12 22:14:39,365 INFO spawned: 'sshd' with pid 24
+2025-10-12 22:14:40,369 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:14:40,369 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:15:40,487 INFO reaped unknown pid 244 (exit status 0)
+2025-10-12 22:15:40,488 INFO reaped unknown pid 247 (exit status 0)
+2025-10-12 22:15:40,488 INFO reaped unknown pid 250 (exit status 0)
+2025-10-12 22:15:40,488 INFO reaped unknown pid 253 (exit status 0)
+2025-10-12 22:19:13,909 INFO reaped unknown pid 248 (exit status 255)
+2025-10-12 22:19:13,910 INFO reaped unknown pid 251 (exit status 255)
+2025-10-12 22:19:13,910 INFO reaped unknown pid 254 (exit status 255)
+2025-10-12 22:20:25,052 INFO reaped unknown pid 245 (exit status 255)
+2025-10-12 22:22:15,270 INFO reaped unknown pid 1096 (exit status 0)
+2025-10-12 22:25:13,621 INFO reaped unknown pid 1097 (exit status 255)
+2025-10-12 22:25:52,699 INFO reaped unknown pid 1388 (exit status 0)
+2025-10-12 22:28:15,980 INFO reaped unknown pid 1389 (exit status 255)
+2025-10-12 22:28:29,009 INFO reaped unknown pid 1655 (exit status 0)
+2025-10-12 22:31:22,351 INFO reaped unknown pid 1656 (exit status 255)
+2025-10-12 22:33:18,580 WARN received SIGTERM indicating exit request
+2025-10-12 22:33:18,581 INFO waiting for sleep, sshd to die
+2025-10-12 22:33:18,583 INFO stopped: sshd (exit status 0)
+2025-10-12 22:33:18,584 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-12 22:33:22,823 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-12 22:33:22,826 INFO supervisord started with pid 1
+2025-10-12 22:33:23,830 INFO spawned: 'sleep' with pid 23
+2025-10-12 22:33:23,833 INFO spawned: 'sshd' with pid 24
+2025-10-12 22:33:24,835 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:33:24,836 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-12 22:34:35,980 INFO reaped unknown pid 239 (exit status 0)
+2025-10-12 22:34:35,980 INFO reaped unknown pid 242 (exit status 0)
+2025-10-12 22:34:35,981 INFO reaped unknown pid 245 (exit status 0)
+2025-10-12 22:34:35,981 INFO reaped unknown pid 248 (exit status 0)
+2025-10-12 22:38:07,406 INFO reaped unknown pid 240 (exit status 255)
+2025-10-12 22:38:07,406 INFO reaped unknown pid 246 (exit status 255)
+2025-10-12 22:38:07,407 INFO reaped unknown pid 249 (exit status 255)
+2025-10-12 22:40:34,701 INFO reaped unknown pid 243 (exit status 255)
+2025-10-12 22:44:23,163 INFO reaped unknown pid 1308 (exit status 0)
+2025-10-12 22:47:04,480 INFO reaped unknown pid 1309 (exit status 255)
+2025-10-12 22:58:23,840 INFO reaped unknown pid 1572 (exit status 0)
+2025-10-12 23:00:12,057 INFO reaped unknown pid 1573 (exit status 255)
+2025-10-12 23:03:34,462 WARN received SIGTERM indicating exit request
+2025-10-12 23:03:34,463 INFO waiting for sleep, sshd to die
+2025-10-12 23:03:34,465 INFO stopped: sshd (exit status 0)
+2025-10-12 23:03:34,466 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-13 14:45:32,890 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-13 14:45:32,897 INFO supervisord started with pid 1
+2025-10-13 14:45:33,900 INFO spawned: 'sleep' with pid 23
+2025-10-13 14:45:33,904 INFO spawned: 'sshd' with pid 24
+2025-10-13 14:45:34,907 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 14:45:34,908 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 14:46:59,074 INFO reaped unknown pid 240 (exit status 0)
+2025-10-13 14:46:59,075 INFO reaped unknown pid 243 (exit status 0)
+2025-10-13 14:46:59,075 INFO reaped unknown pid 246 (exit status 0)
+2025-10-13 14:46:59,076 INFO reaped unknown pid 249 (exit status 0)
+2025-10-13 14:50:37,505 INFO reaped unknown pid 244 (exit status 255)
+2025-10-13 14:50:37,506 INFO reaped unknown pid 247 (exit status 255)
+2025-10-13 14:50:37,506 INFO reaped unknown pid 250 (exit status 255)
+2025-10-13 14:53:26,835 INFO reaped unknown pid 241 (exit status 255)
+2025-10-13 15:01:46,846 INFO reaped unknown pid 1296 (exit status 0)
+2025-10-13 15:05:45,323 INFO reaped unknown pid 1297 (exit status 255)
+2025-10-13 15:07:06,484 INFO reaped unknown pid 1552 (exit status 0)
+2025-10-13 15:08:57,704 INFO reaped unknown pid 1553 (exit status 255)
+2025-10-13 15:09:52,814 INFO reaped unknown pid 1655 (exit status 0)
+2025-10-13 15:11:29,004 INFO reaped unknown pid 1656 (exit status 255)
+2025-10-13 15:12:01,069 INFO reaped unknown pid 1811 (exit status 0)
+2025-10-13 15:14:31,367 INFO reaped unknown pid 1812 (exit status 255)
+2025-10-13 15:20:58,143 INFO reaped unknown pid 2078 (exit status 0)
+2025-10-13 15:23:34,447 INFO reaped unknown pid 2079 (exit status 255)
+2025-10-13 15:41:01,550 INFO reaped unknown pid 2348 (exit status 0)
+2025-10-13 15:43:41,866 INFO reaped unknown pid 2349 (exit status 255)
+2025-10-13 15:47:32,332 INFO reaped unknown pid 2626 (exit status 0)
+2025-10-13 15:50:08,640 INFO reaped unknown pid 2627 (exit status 255)
+2025-10-13 16:01:37,020 INFO reaped unknown pid 2890 (exit status 0)
+2025-10-13 16:04:39,376 INFO reaped unknown pid 2891 (exit status 255)
+2025-10-13 16:13:00,379 INFO reaped unknown pid 3146 (exit status 0)
+2025-10-13 16:13:06,391 INFO reaped unknown pid 3162 (exit status 255)
+2025-10-13 16:13:06,392 INFO reaped unknown pid 3163 (exit status 0)
+2025-10-13 16:16:11,766 INFO reaped unknown pid 3147 (exit status 255)
+2025-10-13 16:20:57,337 INFO reaped unknown pid 3456 (exit status 0)
+2025-10-13 16:23:36,654 INFO reaped unknown pid 3457 (exit status 255)
+2025-10-13 16:34:19,946 INFO reaped unknown pid 3723 (exit status 0)
+2025-10-13 16:35:04,032 INFO reaped unknown pid 3724 (exit status 255)
+2025-10-13 16:36:39,225 WARN received SIGTERM indicating exit request
+2025-10-13 16:36:39,225 INFO waiting for sleep, sshd to die
+2025-10-13 16:36:39,226 INFO stopped: sshd (exit status 0)
+2025-10-13 16:36:39,227 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-13 17:32:18,462 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-13 17:32:18,474 INFO supervisord started with pid 1
+2025-10-13 17:32:19,479 INFO spawned: 'sleep' with pid 28
+2025-10-13 17:32:19,484 INFO spawned: 'sshd' with pid 29
+2025-10-13 17:32:20,490 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:32:20,490 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:36:10,950 WARN received SIGTERM indicating exit request
+2025-10-13 17:36:10,950 INFO waiting for sleep, sshd to die
+2025-10-13 17:36:10,960 INFO stopped: sshd (exit status 0)
+2025-10-13 17:36:10,962 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-13 17:36:14,266 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-13 17:36:14,276 INFO supervisord started with pid 1
+2025-10-13 17:36:15,280 INFO spawned: 'sleep' with pid 31
+2025-10-13 17:36:15,283 INFO spawned: 'sshd' with pid 32
+2025-10-13 17:36:16,288 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:36:16,289 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:49:08,822 WARN received SIGTERM indicating exit request
+2025-10-13 17:49:08,823 INFO waiting for sleep, sshd to die
+2025-10-13 17:49:08,824 INFO stopped: sshd (exit status 0)
+2025-10-13 17:49:08,825 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-13 17:49:15,305 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-13 17:49:15,316 INFO supervisord started with pid 1
+2025-10-13 17:49:16,322 INFO spawned: 'sleep' with pid 22
+2025-10-13 17:49:16,325 INFO spawned: 'sshd' with pid 23
+2025-10-13 17:49:17,328 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:49:17,329 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-13 17:50:38,484 INFO reaped unknown pid 241 (exit status 0)
+2025-10-13 17:50:38,485 INFO reaped unknown pid 244 (exit status 0)
+2025-10-13 17:50:38,486 INFO reaped unknown pid 247 (exit status 0)
+2025-10-13 17:50:38,487 INFO reaped unknown pid 250 (exit status 0)
+2025-10-13 17:55:07,013 INFO reaped unknown pid 245 (exit status 255)
+2025-10-13 17:55:07,014 INFO reaped unknown pid 248 (exit status 255)
+2025-10-13 17:55:07,015 INFO reaped unknown pid 251 (exit status 255)
+2025-10-13 17:57:23,279 INFO reaped unknown pid 242 (exit status 255)
+2025-10-13 18:15:58,509 INFO reaped unknown pid 1308 (exit status 0)
+2025-10-13 18:19:31,941 INFO reaped unknown pid 1309 (exit status 255)
+2025-10-13 18:27:24,889 INFO reaped unknown pid 1581 (exit status 0)
+2025-10-13 18:29:18,114 INFO reaped unknown pid 1582 (exit status 255)
+2025-10-13 18:29:27,133 INFO reaped unknown pid 1681 (exit status 0)
+2025-10-13 18:31:11,341 INFO reaped unknown pid 1682 (exit status 255)
+2025-10-13 18:52:34,914 INFO reaped unknown pid 1866 (exit status 0)
+2025-10-13 18:55:03,205 INFO reaped unknown pid 1867 (exit status 255)
+2025-10-13 18:58:21,603 INFO reaped unknown pid 2139 (exit status 0)
+2025-10-13 19:01:12,952 INFO reaped unknown pid 2140 (exit status 255)
+2025-10-13 19:03:42,253 INFO reaped unknown pid 2406 (exit status 0)
+2025-10-13 19:06:06,540 INFO reaped unknown pid 2407 (exit status 255)
+2025-10-13 19:06:30,590 INFO reaped unknown pid 2676 (exit status 0)
+2025-10-13 19:09:18,921 INFO reaped unknown pid 2677 (exit status 255)
+2025-10-13 19:10:52,107 INFO reaped unknown pid 2946 (exit status 0)
+2025-10-13 19:14:05,492 INFO reaped unknown pid 2947 (exit status 255)
+2025-10-13 19:20:15,237 INFO reaped unknown pid 3213 (exit status 0)
+2025-10-13 19:21:56,437 INFO reaped unknown pid 3214 (exit status 255)
+2025-10-13 19:22:09,464 INFO reaped unknown pid 3386 (exit status 0)
+2025-10-13 19:24:49,783 INFO reaped unknown pid 3387 (exit status 255)
+2025-10-13 19:25:31,868 INFO reaped unknown pid 3712 (exit status 0)
+2025-10-13 19:33:34,820 INFO reaped unknown pid 3713 (exit status 255)
+2025-10-13 19:47:01,435 INFO reaped unknown pid 4534 (exit status 0)
+2025-10-13 19:47:59,551 INFO reaped unknown pid 4535 (exit status 255)
+2025-10-13 21:49:36,104 WARN received SIGTERM indicating exit request
+2025-10-13 21:49:36,129 INFO waiting for sleep, sshd to die
+2025-10-13 21:49:36,194 INFO stopped: sshd (exit status 0)
+2025-10-13 21:49:37,215 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 14:32:01,572 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 14:32:01,577 INFO supervisord started with pid 1
+2025-10-15 14:32:02,580 INFO spawned: 'sleep' with pid 23
+2025-10-15 14:32:02,587 INFO spawned: 'sshd' with pid 24
+2025-10-15 14:32:03,592 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:32:03,593 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:33:22,786 WARN received SIGTERM indicating exit request
+2025-10-15 14:33:22,786 INFO waiting for sleep, sshd to die
+2025-10-15 14:33:22,796 INFO stopped: sshd (exit status 0)
+2025-10-15 14:33:22,797 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 14:33:26,687 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 14:33:26,695 INFO supervisord started with pid 1
+2025-10-15 14:33:27,699 INFO spawned: 'sleep' with pid 22
+2025-10-15 14:33:27,701 INFO spawned: 'sshd' with pid 23
+2025-10-15 14:33:28,704 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:33:28,704 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:34:38,837 INFO reaped unknown pid 244 (exit status 0)
+2025-10-15 14:34:38,838 INFO reaped unknown pid 247 (exit status 0)
+2025-10-15 14:34:38,839 INFO reaped unknown pid 250 (exit status 0)
+2025-10-15 14:34:49,861 WARN received SIGTERM indicating exit request
+2025-10-15 14:34:49,862 INFO waiting for sleep, sshd to die
+2025-10-15 14:34:49,863 INFO stopped: sshd (exit status 0)
+2025-10-15 14:34:49,864 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 14:34:52,667 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 14:34:52,671 INFO supervisord started with pid 1
+2025-10-15 14:34:53,674 INFO spawned: 'sleep' with pid 23
+2025-10-15 14:34:53,677 INFO spawned: 'sshd' with pid 24
+2025-10-15 14:34:54,680 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:34:54,681 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 14:35:35,763 INFO reaped unknown pid 244 (exit status 0)
+2025-10-15 14:35:35,764 INFO reaped unknown pid 247 (exit status 0)
+2025-10-15 14:35:35,764 INFO reaped unknown pid 250 (exit status 0)
+2025-10-15 14:35:35,765 INFO reaped unknown pid 253 (exit status 0)
+2025-10-15 14:39:13,198 INFO reaped unknown pid 245 (exit status 255)
+2025-10-15 14:39:13,199 INFO reaped unknown pid 252 (exit status 255)
+2025-10-15 14:39:14,201 INFO reaped unknown pid 254 (exit status 255)
+2025-10-15 14:41:52,509 INFO reaped unknown pid 248 (exit status 255)
+2025-10-15 15:01:06,807 INFO reaped unknown pid 1293 (exit status 0)
+2025-10-15 15:01:51,900 INFO reaped unknown pid 1294 (exit status 255)
+2025-10-15 15:02:46,007 WARN received SIGTERM indicating exit request
+2025-10-15 15:02:46,013 INFO waiting for sleep, sshd to die
+2025-10-15 15:02:46,030 INFO stopped: sshd (exit status 0)
+2025-10-15 15:02:46,035 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 15:03:54,114 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 15:03:54,119 INFO supervisord started with pid 1
+2025-10-15 15:03:55,126 INFO spawned: 'sleep' with pid 22
+2025-10-15 15:03:55,129 INFO spawned: 'sshd' with pid 23
+2025-10-15 15:03:56,132 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 15:03:56,133 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 15:06:53,489 INFO reaped unknown pid 244 (exit status 0)
+2025-10-15 15:06:53,489 INFO reaped unknown pid 247 (exit status 0)
+2025-10-15 15:06:53,490 INFO reaped unknown pid 250 (exit status 0)
+2025-10-15 15:06:53,490 INFO reaped unknown pid 253 (exit status 0)
+2025-10-15 15:10:38,938 INFO reaped unknown pid 245 (exit status 255)
+2025-10-15 15:10:38,938 INFO reaped unknown pid 248 (exit status 255)
+2025-10-15 15:10:38,938 INFO reaped unknown pid 254 (exit status 255)
+2025-10-15 15:15:47,556 INFO reaped unknown pid 251 (exit status 255)
+2025-10-15 15:26:51,907 INFO reaped unknown pid 1311 (exit status 0)
+2025-10-15 15:30:51,404 INFO reaped unknown pid 1312 (exit status 255)
+2025-10-15 15:31:13,448 INFO reaped unknown pid 1523 (exit status 0)
+2025-10-15 15:31:18,459 INFO reaped unknown pid 1536 (exit status 1)
+2025-10-15 15:35:06,921 INFO reaped unknown pid 1524 (exit status 255)
+2025-10-15 15:36:28,086 INFO reaped unknown pid 1732 (exit status 0)
+2025-10-15 15:40:07,534 INFO reaped unknown pid 1733 (exit status 255)
+2025-10-15 15:55:07,305 INFO reaped unknown pid 1923 (exit status 0)
+2025-10-15 15:57:49,619 INFO reaped unknown pid 1924 (exit status 255)
+2025-10-15 16:00:28,935 INFO reaped unknown pid 2315 (exit status 0)
+2025-10-15 16:02:14,138 INFO reaped unknown pid 2316 (exit status 255)
+2025-10-15 17:25:35,138 INFO reaped unknown pid 2522 (exit status 0)
+2025-10-15 17:27:20,350 INFO reaped unknown pid 2523 (exit status 255)
+2025-10-15 17:28:47,531 WARN received SIGTERM indicating exit request
+2025-10-15 17:28:47,541 INFO waiting for sleep, sshd to die
+2025-10-15 17:28:47,565 INFO stopped: sshd (exit status 0)
+2025-10-15 17:28:47,570 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 17:28:53,345 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 17:28:53,349 INFO supervisord started with pid 1
+2025-10-15 17:28:54,356 INFO spawned: 'sleep' with pid 23
+2025-10-15 17:28:54,364 INFO spawned: 'sshd' with pid 24
+2025-10-15 17:28:55,369 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 17:28:55,369 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 17:30:03,505 INFO reaped unknown pid 242 (exit status 0)
+2025-10-15 17:30:03,506 INFO reaped unknown pid 245 (exit status 0)
+2025-10-15 17:30:03,506 INFO reaped unknown pid 248 (exit status 0)
+2025-10-15 17:30:03,507 INFO reaped unknown pid 251 (exit status 0)
+2025-10-15 17:33:36,928 INFO reaped unknown pid 246 (exit status 255)
+2025-10-15 17:33:36,935 INFO reaped unknown pid 249 (exit status 255)
+2025-10-15 17:33:36,936 INFO reaped unknown pid 252 (exit status 255)
+2025-10-15 17:38:05,466 INFO reaped unknown pid 243 (exit status 255)
+2025-10-15 18:01:58,330 INFO reaped unknown pid 1333 (exit status 0)
+2025-10-15 18:04:48,668 INFO reaped unknown pid 1334 (exit status 255)
+2025-10-15 18:06:08,829 INFO reaped unknown pid 1468 (exit status 0)
+2025-10-15 18:09:34,241 INFO reaped unknown pid 1469 (exit status 255)
+2025-10-15 18:10:19,332 INFO reaped unknown pid 1761 (exit status 0)
+2025-10-15 18:12:06,545 INFO reaped unknown pid 1762 (exit status 255)
+2025-10-15 18:15:18,933 INFO reaped unknown pid 1952 (exit status 0)
+2025-10-15 18:15:20,952 INFO reaped unknown pid 1957 (terminated by SIGPIPE)
+2025-10-15 18:17:27,201 INFO reaped unknown pid 1953 (exit status 255)
+2025-10-15 18:17:58,264 INFO reaped unknown pid 2151 (exit status 0)
+2025-10-15 18:19:06,398 INFO reaped unknown pid 2152 (exit status 255)
+2025-10-15 18:19:51,487 INFO reaped unknown pid 2186 (exit status 0)
+2025-10-15 18:21:34,694 INFO reaped unknown pid 2187 (exit status 255)
+2025-10-15 18:24:29,045 INFO reaped unknown pid 2369 (exit status 0)
+2025-10-15 18:26:28,278 INFO reaped unknown pid 2370 (exit status 255)
+2025-10-15 18:32:27,004 WARN received SIGTERM indicating exit request
+2025-10-15 18:32:27,012 INFO waiting for sleep, sshd to die
+2025-10-15 18:32:27,040 INFO stopped: sshd (exit status 0)
+2025-10-15 18:32:27,045 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 18:32:31,604 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 18:32:31,607 INFO supervisord started with pid 1
+2025-10-15 18:32:32,612 INFO spawned: 'sleep' with pid 22
+2025-10-15 18:32:32,618 INFO spawned: 'sshd' with pid 23
+2025-10-15 18:32:33,621 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 18:32:33,622 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 18:33:51,778 INFO reaped unknown pid 239 (exit status 0)
+2025-10-15 18:33:51,779 INFO reaped unknown pid 242 (exit status 0)
+2025-10-15 18:33:51,780 INFO reaped unknown pid 245 (exit status 0)
+2025-10-15 18:33:51,780 INFO reaped unknown pid 248 (exit status 0)
+2025-10-15 18:37:11,177 INFO reaped unknown pid 243 (exit status 255)
+2025-10-15 18:37:11,177 INFO reaped unknown pid 246 (exit status 255)
+2025-10-15 18:37:11,178 INFO reaped unknown pid 249 (exit status 255)
+2025-10-15 18:37:57,268 INFO reaped unknown pid 886 (exit status 0)
+2025-10-15 18:37:57,269 INFO reaped unknown pid 889 (exit status 0)
+2025-10-15 18:37:57,269 INFO reaped unknown pid 892 (exit status 0)
+2025-10-15 18:39:22,436 INFO reaped unknown pid 887 (exit status 255)
+2025-10-15 18:39:22,437 INFO reaped unknown pid 890 (exit status 255)
+2025-10-15 18:39:22,437 INFO reaped unknown pid 893 (exit status 255)
+2025-10-15 18:43:21,902 INFO reaped unknown pid 240 (exit status 255)
+2025-10-15 18:48:10,478 INFO reaped unknown pid 1367 (exit status 0)
+2025-10-15 18:52:18,971 INFO reaped unknown pid 1368 (exit status 255)
+2025-10-15 18:53:41,135 INFO reaped unknown pid 1760 (exit status 0)
+2025-10-15 18:55:19,328 INFO reaped unknown pid 1761 (exit status 255)
+2025-10-15 19:39:26,628 WARN received SIGTERM indicating exit request
+2025-10-15 19:39:26,633 INFO waiting for sleep, sshd to die
+2025-10-15 19:39:26,647 INFO stopped: sshd (exit status 0)
+2025-10-15 19:39:26,651 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 19:43:03,208 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 19:43:03,215 INFO supervisord started with pid 1
+2025-10-15 19:43:04,219 INFO spawned: 'sleep' with pid 22
+2025-10-15 19:43:04,222 INFO spawned: 'sshd' with pid 23
+2025-10-15 19:43:05,225 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 19:43:05,226 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 19:44:16,375 INFO reaped unknown pid 243 (exit status 0)
+2025-10-15 19:44:16,375 INFO reaped unknown pid 246 (exit status 0)
+2025-10-15 19:44:16,376 INFO reaped unknown pid 249 (exit status 0)
+2025-10-15 19:44:16,377 INFO reaped unknown pid 252 (exit status 0)
+2025-10-15 19:47:40,776 INFO reaped unknown pid 244 (exit status 255)
+2025-10-15 19:47:40,777 INFO reaped unknown pid 250 (exit status 255)
+2025-10-15 19:47:40,777 INFO reaped unknown pid 253 (exit status 255)
+2025-10-15 19:50:10,073 INFO reaped unknown pid 247 (exit status 255)
+2025-10-15 19:51:43,259 INFO reaped unknown pid 1347 (exit status 0)
+2025-10-15 19:54:56,643 INFO reaped unknown pid 1348 (exit status 255)
+2025-10-15 19:55:50,751 INFO reaped unknown pid 1707 (exit status 0)
+2025-10-15 19:57:49,989 INFO reaped unknown pid 1708 (exit status 255)
+2025-10-15 19:58:02,013 INFO reaped unknown pid 1903 (exit status 0)
+2025-10-15 19:59:37,206 INFO reaped unknown pid 1904 (exit status 255)
+2025-10-15 20:17:58,414 INFO reaped unknown pid 2086 (exit status 0)
+2025-10-15 20:18:44,504 INFO reaped unknown pid 2087 (exit status 255)
+2025-10-15 20:20:43,742 WARN received SIGTERM indicating exit request
+2025-10-15 20:20:43,743 INFO waiting for sleep, sshd to die
+2025-10-15 20:20:43,745 INFO stopped: sshd (exit status 0)
+2025-10-15 20:20:43,746 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 21:43:10,519 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 21:43:10,526 INFO supervisord started with pid 1
+2025-10-15 21:43:11,530 INFO spawned: 'sleep' with pid 23
+2025-10-15 21:43:11,536 INFO spawned: 'sshd' with pid 24
+2025-10-15 21:43:12,540 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 21:43:12,540 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 21:44:50,760 INFO reaped unknown pid 238 (exit status 0)
+2025-10-15 21:44:50,761 INFO reaped unknown pid 241 (exit status 0)
+2025-10-15 21:44:50,761 INFO reaped unknown pid 244 (exit status 0)
+2025-10-15 21:44:51,764 INFO reaped unknown pid 247 (exit status 0)
+2025-10-15 21:48:27,179 INFO reaped unknown pid 242 (exit status 255)
+2025-10-15 21:48:27,180 INFO reaped unknown pid 245 (exit status 255)
+2025-10-15 21:48:27,180 INFO reaped unknown pid 248 (exit status 255)
+2025-10-15 21:51:30,537 INFO reaped unknown pid 239 (exit status 255)
+2025-10-15 22:18:44,784 INFO reaped unknown pid 1348 (exit status 0)
+2025-10-15 22:19:32,879 INFO reaped unknown pid 1349 (exit status 255)
+2025-10-15 22:20:20,982 WARN received SIGTERM indicating exit request
+2025-10-15 22:20:20,983 INFO waiting for sleep, sshd to die
+2025-10-15 22:20:20,985 INFO stopped: sshd (exit status 0)
+2025-10-15 22:20:20,987 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-15 22:26:10,865 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-15 22:26:10,874 INFO supervisord started with pid 1
+2025-10-15 22:26:11,878 INFO spawned: 'sleep' with pid 22
+2025-10-15 22:26:11,881 INFO spawned: 'sshd' with pid 23
+2025-10-15 22:26:12,885 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 22:26:12,885 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-15 22:31:45,548 INFO reaped unknown pid 239 (exit status 0)
+2025-10-15 22:31:45,549 INFO reaped unknown pid 242 (exit status 0)
+2025-10-15 22:31:45,549 INFO reaped unknown pid 245 (exit status 0)
+2025-10-15 22:31:45,550 INFO reaped unknown pid 248 (exit status 0)
+2025-10-15 22:36:04,048 INFO reaped unknown pid 244 (exit status 255)
+2025-10-15 22:36:05,050 INFO reaped unknown pid 240 (exit status 255)
+2025-10-15 22:36:06,051 INFO reaped unknown pid 249 (exit status 255)
+2025-10-15 22:39:11,415 INFO reaped unknown pid 246 (exit status 255)
+2025-10-15 23:00:57,008 INFO reaped unknown pid 1338 (exit status 0)
+2025-10-15 23:04:41,457 INFO reaped unknown pid 1339 (exit status 255)
+2025-10-15 23:10:50,195 INFO reaped unknown pid 1829 (exit status 0)
+2025-10-15 23:12:34,401 INFO reaped unknown pid 1830 (exit status 255)
+2025-10-15 23:14:59,692 INFO reaped unknown pid 1941 (exit status 0)
+2025-10-15 23:18:17,085 INFO reaped unknown pid 1942 (exit status 255)
+2025-10-15 23:20:09,311 INFO reaped unknown pid 2168 (exit status 0)
+2025-10-15 23:22:56,645 INFO reaped unknown pid 2169 (exit status 255)
+2025-10-15 23:39:55,682 INFO reaped unknown pid 2498 (exit status 0)
+2025-10-15 23:40:39,767 INFO reaped unknown pid 2499 (exit status 255)
+2025-10-15 23:42:13,957 WARN received SIGTERM indicating exit request
+2025-10-15 23:42:13,957 INFO waiting for sleep, sshd to die
+2025-10-15 23:42:13,959 INFO stopped: sshd (exit status 0)
+2025-10-15 23:42:13,961 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-16 13:06:53,457 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-16 13:06:53,465 INFO supervisord started with pid 1
+2025-10-16 13:06:54,470 INFO spawned: 'sleep' with pid 23
+2025-10-16 13:06:54,472 INFO spawned: 'sshd' with pid 24
+2025-10-16 13:06:55,475 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:06:55,476 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:08:12,628 INFO reaped unknown pid 241 (exit status 0)
+2025-10-16 13:08:12,629 INFO reaped unknown pid 244 (exit status 0)
+2025-10-16 13:08:12,629 INFO reaped unknown pid 247 (exit status 0)
+2025-10-16 13:08:12,629 INFO reaped unknown pid 250 (exit status 0)
+2025-10-16 13:14:53,629 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-16 13:14:53,644 INFO supervisord started with pid 1
+2025-10-16 13:14:54,648 INFO spawned: 'sleep' with pid 23
+2025-10-16 13:14:54,650 INFO spawned: 'sshd' with pid 24
+2025-10-16 13:14:55,653 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:14:55,653 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:16:02,785 INFO reaped unknown pid 242 (exit status 0)
+2025-10-16 13:16:02,786 INFO reaped unknown pid 245 (exit status 0)
+2025-10-16 13:16:02,786 INFO reaped unknown pid 248 (exit status 0)
+2025-10-16 13:16:02,786 INFO reaped unknown pid 251 (exit status 0)
+2025-10-16 13:18:36,080 INFO reaped unknown pid 249 (exit status 255)
+2025-10-16 13:18:42,092 INFO reaped unknown pid 243 (exit status 255)
+2025-10-16 13:18:42,092 INFO reaped unknown pid 246 (exit status 255)
+2025-10-16 13:18:42,093 INFO reaped unknown pid 252 (exit status 255)
+2025-10-16 13:19:17,162 WARN received SIGTERM indicating exit request
+2025-10-16 13:19:17,163 INFO waiting for sleep, sshd to die
+2025-10-16 13:19:17,165 INFO stopped: sshd (exit status 0)
+2025-10-16 13:19:17,167 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-16 13:19:21,625 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-16 13:19:21,630 INFO supervisord started with pid 1
+2025-10-16 13:19:22,634 INFO spawned: 'sleep' with pid 23
+2025-10-16 13:19:22,636 INFO spawned: 'sshd' with pid 24
+2025-10-16 13:19:23,639 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:19:23,640 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 13:20:27,764 INFO reaped unknown pid 243 (exit status 0)
+2025-10-16 13:20:27,764 INFO reaped unknown pid 246 (exit status 0)
+2025-10-16 13:20:27,764 INFO reaped unknown pid 249 (exit status 0)
+2025-10-16 13:20:27,765 INFO reaped unknown pid 252 (exit status 0)
+2025-10-16 13:24:03,183 INFO reaped unknown pid 244 (exit status 255)
+2025-10-16 13:24:03,183 INFO reaped unknown pid 247 (exit status 255)
+2025-10-16 13:24:03,183 INFO reaped unknown pid 253 (exit status 255)
+2025-10-16 13:26:57,525 INFO reaped unknown pid 250 (exit status 255)
+2025-10-16 13:43:33,499 INFO reaped unknown pid 1358 (exit status 0)
+2025-10-16 13:44:17,585 INFO reaped unknown pid 1359 (exit status 255)
+2025-10-16 13:44:51,653 WARN received SIGTERM indicating exit request
+2025-10-16 13:44:51,654 INFO waiting for sleep, sshd to die
+2025-10-16 13:44:51,655 INFO stopped: sshd (exit status 0)
+2025-10-16 13:44:51,656 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-16 22:12:03,888 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-16 22:12:03,893 INFO supervisord started with pid 1
+2025-10-16 22:12:04,896 INFO spawned: 'sleep' with pid 23
+2025-10-16 22:12:04,898 INFO spawned: 'sshd' with pid 24
+2025-10-16 22:12:05,902 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 22:12:05,902 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-16 22:13:19,050 INFO reaped unknown pid 240 (exit status 0)
+2025-10-16 22:13:19,050 INFO reaped unknown pid 243 (exit status 0)
+2025-10-16 22:13:19,051 INFO reaped unknown pid 246 (exit status 0)
+2025-10-16 22:13:19,051 INFO reaped unknown pid 249 (exit status 0)
+2025-10-16 22:17:00,522 INFO reaped unknown pid 241 (exit status 255)
+2025-10-16 22:17:00,522 INFO reaped unknown pid 247 (exit status 255)
+2025-10-16 22:17:00,523 INFO reaped unknown pid 250 (exit status 255)
+2025-10-16 22:19:57,868 INFO reaped unknown pid 244 (exit status 255)
+2025-10-16 22:35:28,712 INFO reaped unknown pid 1392 (exit status 0)
+2025-10-16 22:38:15,036 INFO reaped unknown pid 1393 (exit status 255)
+2025-10-16 22:43:29,661 INFO reaped unknown pid 1742 (exit status 0)
+2025-10-16 22:44:18,758 INFO reaped unknown pid 1743 (exit status 255)
+2025-10-16 22:45:12,865 WARN received SIGTERM indicating exit request
+2025-10-16 22:45:12,866 INFO waiting for sleep, sshd to die
+2025-10-16 22:45:12,868 INFO stopped: sshd (exit status 0)
+2025-10-16 22:45:12,869 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 10:36:56,813 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 10:36:56,818 INFO supervisord started with pid 1
+2025-10-23 10:36:57,822 INFO spawned: 'sleep' with pid 30
+2025-10-23 10:36:57,826 INFO spawned: 'sshd' with pid 31
+2025-10-23 10:36:58,829 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 10:36:58,829 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 10:39:40,153 INFO reaped unknown pid 248 (exit status 0)
+2025-10-23 10:39:40,153 INFO reaped unknown pid 251 (exit status 0)
+2025-10-23 10:39:40,154 INFO reaped unknown pid 254 (exit status 0)
+2025-10-23 10:39:40,154 INFO reaped unknown pid 257 (exit status 0)
+2025-10-23 10:43:16,570 INFO reaped unknown pid 255 (exit status 255)
+2025-10-23 10:43:18,574 INFO reaped unknown pid 252 (exit status 255)
+2025-10-23 10:43:18,575 INFO reaped unknown pid 258 (exit status 255)
+2025-10-23 10:45:20,865 INFO reaped unknown pid 249 (exit status 255)
+2025-10-23 10:52:52,755 WARN received SIGTERM indicating exit request
+2025-10-23 10:52:52,763 INFO waiting for sleep, sshd to die
+2025-10-23 10:52:52,767 INFO stopped: sshd (exit status 0)
+2025-10-23 10:52:52,768 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 10:52:56,796 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 10:52:56,800 INFO supervisord started with pid 1
+2025-10-23 10:52:57,803 INFO spawned: 'sleep' with pid 30
+2025-10-23 10:52:57,806 INFO spawned: 'sshd' with pid 31
+2025-10-23 10:52:58,810 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 10:52:58,810 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 10:54:49,027 INFO reaped unknown pid 248 (exit status 0)
+2025-10-23 10:54:49,028 INFO reaped unknown pid 251 (exit status 0)
+2025-10-23 10:54:50,030 INFO reaped unknown pid 254 (exit status 0)
+2025-10-23 10:55:56,158 INFO reaped unknown pid 249 (exit status 255)
+2025-10-23 10:55:56,158 INFO reaped unknown pid 252 (exit status 255)
+2025-10-23 10:55:56,158 INFO reaped unknown pid 255 (exit status 255)
+2025-10-23 10:56:53,268 WARN received SIGTERM indicating exit request
+2025-10-23 10:56:53,269 INFO waiting for sleep, sshd to die
+2025-10-23 10:56:53,271 INFO stopped: sshd (exit status 0)
+2025-10-23 10:56:53,272 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 11:19:27,667 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 11:19:27,669 INFO supervisord started with pid 1
+2025-10-23 11:19:28,672 INFO spawned: 'sleep' with pid 30
+2025-10-23 11:19:28,673 INFO spawned: 'sshd' with pid 31
+2025-10-23 11:19:29,675 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 11:19:29,675 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 11:20:39,748 INFO reaped unknown pid 248 (exit status 0)
+2025-10-23 11:20:39,748 INFO reaped unknown pid 251 (exit status 0)
+2025-10-23 11:20:39,748 INFO reaped unknown pid 254 (exit status 0)
+2025-10-23 11:20:40,749 INFO reaped unknown pid 257 (exit status 0)
+2025-10-23 11:24:21,962 INFO reaped unknown pid 249 (exit status 255)
+2025-10-23 11:24:21,962 INFO reaped unknown pid 252 (exit status 255)
+2025-10-23 11:24:21,962 INFO reaped unknown pid 258 (exit status 255)
+2025-10-23 11:27:05,123 INFO reaped unknown pid 255 (exit status 255)
+2025-10-23 11:40:10,957 INFO reaped unknown pid 1392 (exit status 0)
+2025-10-23 11:40:53,003 INFO reaped unknown pid 1393 (exit status 255)
+2025-10-23 11:46:39,373 WARN received SIGTERM indicating exit request
+2025-10-23 11:46:39,373 INFO waiting for sleep, sshd to die
+2025-10-23 11:46:39,376 INFO stopped: sshd (exit status 0)
+2025-10-23 11:46:39,377 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 11:47:35,428 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 11:47:35,430 INFO supervisord started with pid 1
+2025-10-23 11:47:36,433 INFO spawned: 'sleep' with pid 30
+2025-10-23 11:47:36,435 INFO spawned: 'sshd' with pid 31
+2025-10-23 11:47:37,436 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 11:47:37,437 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 11:48:42,506 INFO reaped unknown pid 250 (exit status 0)
+2025-10-23 11:48:42,507 INFO reaped unknown pid 253 (exit status 0)
+2025-10-23 11:48:42,507 INFO reaped unknown pid 256 (exit status 0)
+2025-10-23 11:48:42,507 INFO reaped unknown pid 259 (exit status 0)
+2025-10-23 11:52:12,719 INFO reaped unknown pid 251 (exit status 255)
+2025-10-23 11:52:12,719 INFO reaped unknown pid 260 (exit status 255)
+2025-10-23 11:52:13,720 INFO reaped unknown pid 257 (exit status 255)
+2025-10-23 11:55:05,898 INFO reaped unknown pid 254 (exit status 255)
+2025-10-23 11:59:17,160 INFO reaped unknown pid 1385 (exit status 0)
+2025-10-23 12:02:30,350 INFO reaped unknown pid 1386 (exit status 255)
+2025-10-23 13:03:51,457 INFO reaped unknown pid 1740 (exit status 0)
+2025-10-23 13:04:35,504 INFO reaped unknown pid 1741 (exit status 255)
+2025-10-23 14:14:52,668 WARN received SIGTERM indicating exit request
+2025-10-23 14:14:52,678 INFO waiting for sleep, sshd to die
+2025-10-23 14:14:52,712 INFO stopped: sshd (exit status 0)
+2025-10-23 14:14:52,714 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 14:32:33,826 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 14:32:33,829 INFO supervisord started with pid 1
+2025-10-23 14:32:34,833 INFO spawned: 'sleep' with pid 31
+2025-10-23 14:32:34,834 INFO spawned: 'sshd' with pid 32
+2025-10-23 14:32:35,836 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:32:35,836 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:36:46,105 WARN received SIGTERM indicating exit request
+2025-10-23 14:36:46,112 INFO waiting for sleep, sshd to die
+2025-10-23 14:36:46,115 INFO stopped: sshd (exit status 0)
+2025-10-23 14:36:46,115 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 14:36:49,162 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 14:36:49,164 INFO supervisord started with pid 1
+2025-10-23 14:36:50,166 INFO spawned: 'sleep' with pid 30
+2025-10-23 14:36:50,168 INFO spawned: 'sshd' with pid 31
+2025-10-23 14:36:51,169 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:36:51,170 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:38:31,282 WARN received SIGTERM indicating exit request
+2025-10-23 14:38:31,282 INFO waiting for sleep, sshd to die
+2025-10-23 14:38:31,285 INFO stopped: sshd (exit status 0)
+2025-10-23 14:38:31,286 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 14:38:33,662 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 14:38:33,664 INFO supervisord started with pid 1
+2025-10-23 14:38:34,666 INFO spawned: 'sleep' with pid 30
+2025-10-23 14:38:34,668 INFO spawned: 'sshd' with pid 31
+2025-10-23 14:38:35,669 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:38:35,669 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 14:39:45,741 INFO reaped unknown pid 249 (exit status 0)
+2025-10-23 14:39:45,748 INFO reaped unknown pid 252 (exit status 0)
+2025-10-23 14:39:45,748 INFO reaped unknown pid 255 (exit status 0)
+2025-10-23 14:39:45,748 INFO reaped unknown pid 258 (exit status 0)
+2025-10-23 14:43:22,957 INFO reaped unknown pid 259 (exit status 255)
+2025-10-23 14:43:23,958 INFO reaped unknown pid 250 (exit status 255)
+2025-10-23 14:43:23,958 INFO reaped unknown pid 256 (exit status 255)
+2025-10-23 14:44:39,036 INFO reaped unknown pid 253 (exit status 255)
+2025-10-23 14:50:47,912 INFO reaped unknown pid 1174 (exit status 0)
+2025-10-23 14:51:28,958 INFO reaped unknown pid 1175 (exit status 255)
+2025-10-23 14:52:52,051 WARN received SIGTERM indicating exit request
+2025-10-23 14:52:52,052 INFO waiting for sleep, sshd to die
+2025-10-23 14:52:52,061 INFO stopped: sshd (exit status 0)
+2025-10-23 14:52:52,062 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 17:42:17,860 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 17:42:17,863 INFO supervisord started with pid 1
+2025-10-23 17:42:18,865 INFO spawned: 'sleep' with pid 30
+2025-10-23 17:42:18,867 INFO spawned: 'sshd' with pid 31
+2025-10-23 17:42:19,869 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 17:42:19,869 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 17:44:41,030 INFO reaped unknown pid 250 (exit status 0)
+2025-10-23 17:44:41,031 INFO reaped unknown pid 253 (exit status 0)
+2025-10-23 17:44:41,031 INFO reaped unknown pid 256 (exit status 0)
+2025-10-23 17:44:41,031 INFO reaped unknown pid 259 (exit status 0)
+2025-10-23 17:48:04,243 INFO reaped unknown pid 254 (exit status 255)
+2025-10-23 17:48:04,243 INFO reaped unknown pid 260 (exit status 255)
+2025-10-23 17:48:05,245 INFO reaped unknown pid 257 (exit status 255)
+2025-10-23 17:50:40,403 INFO reaped unknown pid 251 (exit status 255)
+2025-10-23 18:01:56,136 INFO reaped unknown pid 1373 (exit status 0)
+2025-10-23 18:03:36,235 INFO reaped unknown pid 1374 (exit status 255)
+2025-10-23 18:04:23,283 INFO reaped unknown pid 1548 (exit status 0)
+2025-10-23 18:06:00,387 INFO reaped unknown pid 1549 (exit status 255)
+2025-10-23 18:30:18,985 INFO reaped unknown pid 1720 (exit status 0)
+2025-10-23 18:31:59,090 INFO reaped unknown pid 1721 (exit status 255)
+2025-10-23 18:33:10,168 INFO reaped unknown pid 1892 (exit status 0)
+2025-10-23 18:33:54,216 INFO reaped unknown pid 1893 (exit status 255)
+2025-10-23 18:36:01,359 WARN received SIGTERM indicating exit request
+2025-10-23 18:36:01,367 INFO waiting for sleep, sshd to die
+2025-10-23 18:36:01,387 INFO stopped: sshd (exit status 0)
+2025-10-23 18:36:01,391 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 18:36:06,374 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 18:36:06,376 INFO supervisord started with pid 1
+2025-10-23 18:36:07,379 INFO spawned: 'sleep' with pid 30
+2025-10-23 18:36:07,381 INFO spawned: 'sshd' with pid 31
+2025-10-23 18:36:08,383 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 18:36:08,383 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 18:37:46,485 INFO reaped unknown pid 252 (exit status 0)
+2025-10-23 18:37:46,485 INFO reaped unknown pid 255 (exit status 0)
+2025-10-23 18:37:46,485 INFO reaped unknown pid 258 (exit status 0)
+2025-10-23 18:37:46,485 INFO reaped unknown pid 261 (exit status 0)
+2025-10-23 18:41:30,709 INFO reaped unknown pid 253 (exit status 255)
+2025-10-23 18:41:30,709 INFO reaped unknown pid 259 (exit status 255)
+2025-10-23 18:41:30,709 INFO reaped unknown pid 262 (exit status 255)
+2025-10-23 18:44:31,893 INFO reaped unknown pid 256 (exit status 255)
+2025-10-23 18:46:04,999 INFO reaped unknown pid 1366 (exit status 0)
+2025-10-23 18:47:46,108 INFO reaped unknown pid 1367 (exit status 255)
+2025-10-23 18:48:13,141 INFO reaped unknown pid 1538 (exit status 0)
+2025-10-23 18:48:58,188 INFO reaped unknown pid 1539 (exit status 255)
+2025-10-23 18:50:18,279 WARN received SIGTERM indicating exit request
+2025-10-23 18:50:18,279 INFO waiting for sleep, sshd to die
+2025-10-23 18:50:18,290 INFO stopped: sshd (exit status 0)
+2025-10-23 18:50:18,291 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 18:50:22,779 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 18:50:22,781 INFO supervisord started with pid 1
+2025-10-23 18:50:23,784 INFO spawned: 'sleep' with pid 30
+2025-10-23 18:50:23,786 INFO spawned: 'sshd' with pid 31
+2025-10-23 18:50:24,787 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 18:50:24,788 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 18:52:41,937 INFO reaped unknown pid 251 (exit status 0)
+2025-10-23 18:52:41,937 INFO reaped unknown pid 254 (exit status 0)
+2025-10-23 18:52:42,939 INFO reaped unknown pid 257 (exit status 0)
+2025-10-23 18:52:42,939 INFO reaped unknown pid 260 (exit status 0)
+2025-10-23 18:56:23,163 INFO reaped unknown pid 252 (exit status 255)
+2025-10-23 18:56:23,163 INFO reaped unknown pid 255 (exit status 255)
+2025-10-23 18:56:23,163 INFO reaped unknown pid 258 (exit status 255)
+2025-10-23 18:59:13,336 INFO reaped unknown pid 261 (exit status 255)
+2025-10-23 19:22:57,803 INFO reaped unknown pid 1366 (exit status 0)
+2025-10-23 19:23:44,857 INFO reaped unknown pid 1367 (exit status 255)
+2025-10-23 19:28:16,153 WARN received SIGTERM indicating exit request
+2025-10-23 19:28:16,161 INFO waiting for sleep, sshd to die
+2025-10-23 19:28:16,167 INFO stopped: sshd (exit status 0)
+2025-10-23 19:28:16,168 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 22:17:54,623 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 22:17:54,626 INFO supervisord started with pid 1
+2025-10-23 22:17:55,628 INFO spawned: 'sleep' with pid 29
+2025-10-23 22:17:55,630 INFO spawned: 'sshd' with pid 30
+2025-10-23 22:17:56,631 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 22:17:56,632 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 22:21:35,873 INFO reaped unknown pid 245 (exit status 0)
+2025-10-23 22:21:35,873 INFO reaped unknown pid 248 (exit status 0)
+2025-10-23 22:21:35,873 INFO reaped unknown pid 251 (exit status 0)
+2025-10-23 22:21:36,875 INFO reaped unknown pid 254 (exit status 0)
+2025-10-23 22:24:17,043 INFO reaped unknown pid 246 (exit status 255)
+2025-10-23 22:24:17,043 INFO reaped unknown pid 252 (exit status 255)
+2025-10-23 22:24:18,044 INFO reaped unknown pid 880 (exit status 0)
+2025-10-23 22:24:19,045 INFO reaped unknown pid 885 (exit status 0)
+2025-10-23 22:25:35,121 INFO reaped unknown pid 249 (exit status 255)
+2025-10-23 22:25:35,122 INFO reaped unknown pid 886 (exit status 255)
+2025-10-23 22:25:37,124 INFO reaped unknown pid 881 (exit status 255)
+2025-10-23 22:28:36,313 INFO reaped unknown pid 255 (exit status 255)
+2025-10-23 22:39:40,051 INFO reaped unknown pid 1354 (exit status 0)
+2025-10-23 22:40:22,097 INFO reaped unknown pid 1355 (exit status 255)
+2025-10-23 22:42:34,251 WARN received SIGTERM indicating exit request
+2025-10-23 22:42:34,251 INFO waiting for sleep, sshd to die
+2025-10-23 22:42:34,253 INFO stopped: sshd (exit status 0)
+2025-10-23 22:42:34,254 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 23:10:38,497 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 23:10:38,499 INFO supervisord started with pid 1
+2025-10-23 23:10:39,502 INFO spawned: 'sleep' with pid 29
+2025-10-23 23:10:39,503 INFO spawned: 'sshd' with pid 30
+2025-10-23 23:10:40,505 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:10:40,505 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:11:36,565 WARN received SIGTERM indicating exit request
+2025-10-23 23:11:36,565 INFO waiting for sleep, sshd to die
+2025-10-23 23:11:36,567 INFO stopped: sshd (exit status 0)
+2025-10-23 23:11:36,568 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 23:11:39,628 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 23:11:39,631 INFO supervisord started with pid 1
+2025-10-23 23:11:40,634 INFO spawned: 'sleep' with pid 29
+2025-10-23 23:11:40,635 INFO spawned: 'sshd' with pid 30
+2025-10-23 23:11:41,637 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:11:41,637 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:13:52,785 WARN received SIGTERM indicating exit request
+2025-10-23 23:13:52,793 INFO waiting for sleep, sshd to die
+2025-10-23 23:13:52,794 INFO stopped: sshd (exit status 0)
+2025-10-23 23:13:52,795 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-23 23:13:55,903 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-23 23:13:55,905 INFO supervisord started with pid 1
+2025-10-23 23:13:56,908 INFO spawned: 'sleep' with pid 29
+2025-10-23 23:13:56,909 INFO spawned: 'sshd' with pid 30
+2025-10-23 23:13:57,910 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:13:57,911 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-23 23:15:07,987 INFO reaped unknown pid 250 (exit status 0)
+2025-10-23 23:15:07,987 INFO reaped unknown pid 253 (exit status 0)
+2025-10-23 23:15:07,988 INFO reaped unknown pid 256 (exit status 0)
+2025-10-23 23:15:07,988 INFO reaped unknown pid 259 (exit status 0)
+2025-10-23 23:18:42,200 INFO reaped unknown pid 251 (exit status 255)
+2025-10-23 23:18:42,207 INFO reaped unknown pid 254 (exit status 255)
+2025-10-23 23:18:43,208 INFO reaped unknown pid 257 (exit status 255)
+2025-10-23 23:21:45,393 INFO reaped unknown pid 260 (exit status 255)
+2025-10-23 23:24:16,554 INFO reaped unknown pid 1346 (exit status 0)
+2025-10-23 23:25:00,597 INFO reaped unknown pid 1347 (exit status 255)
+2025-10-23 23:25:35,638 WARN received SIGTERM indicating exit request
+2025-10-23 23:25:35,639 INFO waiting for sleep, sshd to die
+2025-10-23 23:25:35,640 INFO stopped: sshd (exit status 0)
+2025-10-23 23:25:35,641 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 00:04:04,693 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 00:04:04,697 INFO supervisord started with pid 1
+2025-10-24 00:04:05,700 INFO spawned: 'sleep' with pid 31
+2025-10-24 00:04:05,702 INFO spawned: 'sshd' with pid 32
+2025-10-24 00:04:06,703 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 00:04:06,704 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 00:07:38,943 WARN received SIGTERM indicating exit request
+2025-10-24 00:07:38,943 INFO waiting for sleep, sshd to die
+2025-10-24 00:07:38,946 INFO stopped: sshd (exit status 0)
+2025-10-24 00:07:38,946 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 00:08:21,909 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 00:08:21,915 INFO supervisord started with pid 1
+2025-10-24 00:08:22,918 INFO spawned: 'sleep' with pid 30
+2025-10-24 00:08:22,921 INFO spawned: 'sshd' with pid 31
+2025-10-24 00:08:23,923 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 00:08:23,923 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 00:14:05,304 INFO reaped unknown pid 247 (exit status 0)
+2025-10-24 00:14:05,304 INFO reaped unknown pid 250 (exit status 0)
+2025-10-24 00:14:05,311 INFO reaped unknown pid 253 (exit status 0)
+2025-10-24 00:14:05,311 INFO reaped unknown pid 256 (exit status 0)
+2025-10-24 00:17:45,523 INFO reaped unknown pid 248 (exit status 255)
+2025-10-24 00:17:45,523 INFO reaped unknown pid 254 (exit status 255)
+2025-10-24 00:17:45,524 INFO reaped unknown pid 257 (exit status 255)
+2025-10-24 00:19:22,638 INFO reaped unknown pid 251 (exit status 255)
+2025-10-24 00:19:56,677 WARN received SIGTERM indicating exit request
+2025-10-24 00:19:56,677 INFO waiting for sleep, sshd to die
+2025-10-24 00:19:56,680 INFO stopped: sshd (exit status 0)
+2025-10-24 00:19:56,680 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 09:45:23,589 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 09:45:23,593 INFO supervisord started with pid 1
+2025-10-24 09:45:24,596 INFO spawned: 'sleep' with pid 29
+2025-10-24 09:45:24,598 INFO spawned: 'sshd' with pid 30
+2025-10-24 09:45:25,599 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 09:45:25,599 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 09:46:38,687 INFO reaped unknown pid 250 (exit status 0)
+2025-10-24 09:46:38,687 INFO reaped unknown pid 253 (exit status 0)
+2025-10-24 09:46:38,687 INFO reaped unknown pid 256 (exit status 0)
+2025-10-24 09:46:38,687 INFO reaped unknown pid 259 (exit status 0)
+2025-10-24 09:50:41,943 INFO reaped unknown pid 251 (exit status 255)
+2025-10-24 09:50:41,949 INFO reaped unknown pid 257 (exit status 255)
+2025-10-24 09:50:43,951 INFO reaped unknown pid 260 (exit status 255)
+2025-10-24 09:53:53,158 INFO reaped unknown pid 254 (exit status 255)
+2025-10-24 16:21:46,393 INFO reaped unknown pid 5933 (terminated by SIGINT)
+2025-10-24 16:21:57,418 INFO reaped unknown pid 5936 (terminated by SIGPIPE)
+2025-10-24 16:24:21,571 WARN received SIGTERM indicating exit request
+2025-10-24 16:24:21,579 INFO waiting for sleep, sshd to die
+2025-10-24 16:24:21,597 INFO stopped: sshd (exit status 0)
+2025-10-24 16:24:21,601 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 16:24:27,104 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 16:24:27,108 INFO supervisord started with pid 1
+2025-10-24 16:24:28,111 INFO spawned: 'sleep' with pid 29
+2025-10-24 16:24:28,112 INFO spawned: 'sshd' with pid 30
+2025-10-24 16:24:29,114 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:24:29,114 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:25:24,169 INFO reaped unknown pid 249 (exit status 0)
+2025-10-24 16:25:24,169 INFO reaped unknown pid 252 (exit status 0)
+2025-10-24 16:25:24,169 INFO reaped unknown pid 255 (exit status 0)
+2025-10-24 16:25:24,169 INFO reaped unknown pid 258 (exit status 0)
+2025-10-24 16:29:02,382 INFO reaped unknown pid 250 (exit status 255)
+2025-10-24 16:29:02,389 INFO reaped unknown pid 253 (exit status 255)
+2025-10-24 16:29:02,389 INFO reaped unknown pid 259 (exit status 255)
+2025-10-24 16:31:56,565 INFO reaped unknown pid 256 (exit status 255)
+2025-10-24 16:32:38,610 INFO reaped unknown pid 1333 (exit status 0)
+2025-10-24 16:35:27,782 INFO reaped unknown pid 1334 (exit status 255)
+2025-10-24 16:36:15,832 WARN received SIGTERM indicating exit request
+2025-10-24 16:36:15,832 INFO waiting for sleep, sshd to die
+2025-10-24 16:36:15,842 INFO stopped: sshd (exit status 0)
+2025-10-24 16:36:15,843 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 16:36:21,481 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 16:36:21,484 INFO supervisord started with pid 1
+2025-10-24 16:36:22,486 INFO spawned: 'sleep' with pid 29
+2025-10-24 16:36:22,488 INFO spawned: 'sshd' with pid 30
+2025-10-24 16:36:23,489 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:36:23,489 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:37:28,556 INFO reaped unknown pid 246 (exit status 0)
+2025-10-24 16:37:28,556 INFO reaped unknown pid 249 (exit status 0)
+2025-10-24 16:37:28,556 INFO reaped unknown pid 252 (exit status 0)
+2025-10-24 16:37:28,556 INFO reaped unknown pid 255 (exit status 0)
+2025-10-24 16:41:03,778 INFO reaped unknown pid 247 (exit status 255)
+2025-10-24 16:41:04,779 INFO reaped unknown pid 250 (exit status 255)
+2025-10-24 16:41:04,779 INFO reaped unknown pid 253 (exit status 255)
+2025-10-24 16:44:03,962 INFO reaped unknown pid 256 (exit status 255)
+2025-10-24 16:56:37,768 INFO reaped unknown pid 2032 (exit status 0)
+2025-10-24 16:57:20,817 INFO reaped unknown pid 2033 (exit status 255)
+2025-10-24 16:58:17,877 WARN received SIGTERM indicating exit request
+2025-10-24 16:58:17,877 INFO waiting for sleep, sshd to die
+2025-10-24 16:58:17,879 INFO stopped: sshd (exit status 0)
+2025-10-24 16:58:17,880 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 16:58:22,364 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 16:58:22,366 INFO supervisord started with pid 1
+2025-10-24 16:58:23,369 INFO spawned: 'sleep' with pid 29
+2025-10-24 16:58:23,370 INFO spawned: 'sshd' with pid 30
+2025-10-24 16:58:24,371 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:58:24,371 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 16:59:28,437 INFO reaped unknown pid 248 (exit status 0)
+2025-10-24 16:59:28,438 INFO reaped unknown pid 251 (exit status 0)
+2025-10-24 16:59:28,438 INFO reaped unknown pid 254 (exit status 0)
+2025-10-24 16:59:29,439 INFO reaped unknown pid 263 (exit status 0)
+2025-10-24 17:03:23,667 INFO reaped unknown pid 264 (exit status 255)
+2025-10-24 17:03:24,668 INFO reaped unknown pid 252 (exit status 255)
+2025-10-24 17:03:24,668 INFO reaped unknown pid 255 (exit status 255)
+2025-10-24 17:06:41,859 INFO reaped unknown pid 249 (exit status 255)
+2025-10-24 17:11:43,162 INFO reaped unknown pid 2043 (exit status 0)
+2025-10-24 17:12:25,205 INFO reaped unknown pid 2044 (exit status 255)
+2025-10-24 17:13:49,290 WARN received SIGTERM indicating exit request
+2025-10-24 17:13:49,290 INFO waiting for sleep, sshd to die
+2025-10-24 17:13:49,292 INFO stopped: sshd (exit status 0)
+2025-10-24 17:13:49,292 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 18:34:18,704 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 18:34:18,709 INFO supervisord started with pid 1
+2025-10-24 18:34:19,711 INFO spawned: 'sleep' with pid 28
+2025-10-24 18:34:19,714 INFO spawned: 'sshd' with pid 29
+2025-10-24 18:34:20,716 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 18:34:20,716 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 18:35:17,784 WARN received SIGTERM indicating exit request
+2025-10-24 18:35:17,784 INFO waiting for sleep, sshd to die
+2025-10-24 18:35:17,787 INFO stopped: sshd (exit status 0)
+2025-10-24 18:35:17,788 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 18:35:20,974 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 18:35:20,977 INFO supervisord started with pid 1
+2025-10-24 18:35:21,980 INFO spawned: 'sleep' with pid 29
+2025-10-24 18:35:21,982 INFO spawned: 'sshd' with pid 30
+2025-10-24 18:35:22,984 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 18:35:22,984 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 18:36:23,054 INFO reaped unknown pid 249 (exit status 0)
+2025-10-24 18:36:23,055 INFO reaped unknown pid 252 (exit status 0)
+2025-10-24 18:36:24,056 INFO reaped unknown pid 255 (exit status 0)
+2025-10-24 18:36:24,056 INFO reaped unknown pid 258 (exit status 0)
+2025-10-24 18:41:06,338 INFO reaped unknown pid 250 (exit status 255)
+2025-10-24 18:41:09,349 INFO reaped unknown pid 256 (exit status 255)
+2025-10-24 18:41:12,353 INFO reaped unknown pid 259 (exit status 255)
+2025-10-24 18:43:48,518 INFO reaped unknown pid 253 (exit status 255)
+2025-10-24 19:14:20,512 INFO reaped unknown pid 1352 (exit status 0)
+2025-10-24 19:16:05,631 INFO reaped unknown pid 1353 (exit status 255)
+2025-10-24 19:17:45,746 INFO reaped unknown pid 1532 (exit status 0)
+2025-10-24 19:19:30,861 INFO reaped unknown pid 1533 (exit status 255)
+2025-10-24 19:30:13,584 INFO reaped unknown pid 2293 (exit status 0)
+2025-10-24 19:31:59,713 INFO reaped unknown pid 2294 (exit status 255)
+2025-10-24 21:24:36,137 INFO reaped unknown pid 3717 (exit status 0)
+2025-10-24 21:27:33,327 INFO reaped unknown pid 3718 (exit status 255)
+2025-10-24 21:28:26,379 INFO reaped unknown pid 3895 (exit status 0)
+2025-10-24 21:30:50,529 INFO reaped unknown pid 3896 (exit status 255)
+2025-10-24 21:54:27,036 INFO reaped unknown pid 4084 (exit status 0)
+2025-10-24 21:56:58,198 INFO reaped unknown pid 4085 (exit status 255)
+2025-10-24 22:26:14,128 INFO reaped unknown pid 4247 (exit status 0)
+2025-10-24 22:27:01,188 INFO reaped unknown pid 4248 (exit status 255)
+2025-10-24 22:34:23,669 WARN received SIGTERM indicating exit request
+2025-10-24 22:34:23,680 INFO waiting for sleep, sshd to die
+2025-10-24 22:34:23,708 INFO stopped: sshd (exit status 0)
+2025-10-24 22:34:23,713 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 22:34:27,490 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 22:34:27,493 INFO supervisord started with pid 1
+2025-10-24 22:34:28,496 INFO spawned: 'sleep' with pid 29
+2025-10-24 22:34:28,497 INFO spawned: 'sshd' with pid 30
+2025-10-24 22:34:29,499 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 22:34:29,499 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 22:35:37,567 INFO reaped unknown pid 246 (exit status 0)
+2025-10-24 22:35:37,567 INFO reaped unknown pid 249 (exit status 0)
+2025-10-24 22:35:37,567 INFO reaped unknown pid 252 (exit status 0)
+2025-10-24 22:35:37,567 INFO reaped unknown pid 255 (exit status 0)
+2025-10-24 22:39:15,778 INFO reaped unknown pid 247 (exit status 255)
+2025-10-24 22:39:17,788 INFO reaped unknown pid 250 (exit status 255)
+2025-10-24 22:39:17,788 INFO reaped unknown pid 253 (exit status 255)
+2025-10-24 22:41:46,943 INFO reaped unknown pid 256 (exit status 255)
+2025-10-24 22:42:27,986 INFO reaped unknown pid 1323 (exit status 0)
+2025-10-24 22:43:11,033 INFO reaped unknown pid 1324 (exit status 255)
+2025-10-24 22:47:38,303 WARN received SIGTERM indicating exit request
+2025-10-24 22:47:38,315 INFO waiting for sleep, sshd to die
+2025-10-24 22:47:38,345 INFO stopped: sshd (exit status 0)
+2025-10-24 22:47:38,350 WARN stopped: sleep (terminated by SIGTERM)
+2025-10-24 23:13:52,829 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-24 23:13:52,832 INFO supervisord started with pid 1
+2025-10-24 23:13:53,835 INFO spawned: 'sleep' with pid 29
+2025-10-24 23:13:53,836 INFO spawned: 'sshd' with pid 30
+2025-10-24 23:13:54,837 INFO success: sleep entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 23:13:54,837 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-24 23:15:08,923 INFO reaped unknown pid 251 (exit status 0)
+2025-10-24 23:15:08,923 INFO reaped unknown pid 254 (exit status 0)
+2025-10-24 23:15:08,923 INFO reaped unknown pid 257 (exit status 0)
+2025-10-24 23:15:08,923 INFO reaped unknown pid 260 (exit status 0)
+2025-10-24 23:18:08,110 INFO reaped unknown pid 252 (exit status 255)
+2025-10-24 23:18:08,110 INFO reaped unknown pid 256 (exit status 255)
+2025-10-24 23:18:08,110 INFO reaped unknown pid 261 (exit status 255)
+2025-10-24 23:18:16,118 INFO reaped unknown pid 884 (exit status 0)
+2025-10-24 23:18:17,120 INFO reaped unknown pid 887 (exit status 0)
+2025-10-24 23:18:17,120 INFO reaped unknown pid 890 (exit status 0)
+2025-10-24 23:19:33,205 INFO reaped unknown pid 888 (exit status 255)
+2025-10-24 23:19:35,207 INFO reaped unknown pid 885 (exit status 255)
+2025-10-24 23:19:36,208 INFO reaped unknown pid 891 (exit status 255)
+2025-10-24 23:24:05,509 INFO reaped unknown pid 258 (exit status 255)
+2025-10-24 23:24:53,564 INFO reaped unknown pid 1345 (exit status 0)
+2025-10-24 23:25:41,618 INFO reaped unknown pid 1346 (exit status 255)
+2025-10-24 23:26:45,690 WARN received SIGTERM indicating exit request
+2025-10-24 23:26:45,691 INFO waiting for sleep, sshd to die
+2025-10-24 23:26:45,692 INFO stopped: sshd (exit status 0)
+2025-10-24 23:26:45,692 WARN stopped: sleep (terminated by SIGTERM)

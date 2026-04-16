@@ -1,0 +1,89 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: ghcr.io/leocfig/frontend:latest
+        ports:
+        - containerPort: 5173
+        env:
+        - name: CHOKIDAR_USEPOLLING
+          value: "1"
+        - name: ALLOWED_HOSTS
+          value: "*"
+        resources:
+          requests:
+            cpu: "200m"
+            memory: "500Mi"
+          limits:
+            cpu: "400m"
+            memory: "500Mi"
+        readinessProbe:
+          httpGet:
+            httpHeaders:
+              - name: host
+                value: localhost
+            path: /
+            port: 5173
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            httpHeaders:
+              - name: host
+                value: localhost
+            path: /
+            port: 5173
+          initialDelaySeconds: 15
+          periodSeconds: 20
+      imagePullSecrets:
+      - name: ghcr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+spec:
+  selector:
+    app: frontend
+  ports:
+    - protocol: TCP
+      port: 5173
+      targetPort: 5173
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: frontendservice-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: frontend
+  minReplicas: 1
+  maxReplicas: 4
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 60
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 70

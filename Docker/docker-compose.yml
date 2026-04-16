@@ -1,0 +1,143 @@
+services:
+  db_auth:
+    build: ./postgres
+    container_name: db_auth
+    environment:
+      POSTGRES_DB: auth_db
+      POSTGRES_USER: auth_user
+      POSTGRES_PASSWORD: auth_pass
+    ports:
+      - "5434:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U auth_user -d auth_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  db_message:
+    build: ./postgres
+    container_name: db_message
+    environment:
+      POSTGRES_DB: message_db
+      POSTGRES_USER: message_user
+      POSTGRES_PASSWORD: message_pass
+    ports:
+      - "5435:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U message_user -d message_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  authservice:
+    build:
+      context: ..
+      dockerfile: Docker/authservice/Dockerfile
+    container_name: authservice
+    environment:
+      DB_HOST: db_auth
+      DB_PORT: "5432"
+      DB_NAME: auth_db
+      DB_USER: auth_user
+      DB_PASSWORD: auth_pass
+      JWT_SHARED_SECRET: dev-shared-secret
+      DJANGO_SECRET_KEY: dev-key
+      DJANGO_DEBUG: "1"
+      CORS_ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      ONLINE_HEARTBEAT_URL: http://onlineservice:8000/api/online/heartbeat
+      ALLOWED_HOSTS: "localhost,127.0.0.1,authservice,localhost:5173"
+    depends_on:
+      db_auth:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  messageservice:
+    build:
+      context: ..
+      dockerfile: Docker/messageservice/Dockerfile
+    container_name: messageservice
+    environment:
+      DB_HOST: db_message
+      DB_PORT: "5432"
+      DB_NAME: message_db
+      DB_USER: message_user
+      DB_PASSWORD: message_pass
+      AUTH_BASE_URL: http://authservice:8000
+      JWT_SHARED_SECRET: dev-shared-secret
+      DJANGO_SECRET_KEY: dev-key
+      DJANGO_DEBUG: "1"
+      ALLOWED_HOSTS: localhost,127.0.0.1,messageservice
+      CORS_ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+    depends_on:
+      db_message:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  onlineservice:
+    build:
+      context: ..
+      dockerfile: Docker/onlineservice/Dockerfile
+    container_name: onlineservice
+    environment:
+      DJANGO_DEBUG: "1"
+      DJANGO_SECRET_KEY: dev-key
+      ALLOWED_HOSTS: localhost,127.0.0.1,onlineservice
+      CORS_ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      JWT_SHARED_SECRET: dev-shared-secret
+      AUTH_JWT_ALG: HS256
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: Docker/front/Dockerfile
+    container_name: frontend
+    environment:
+      CHOKIDAR_USEPOLLING: "1"
+    depends_on:
+      - authservice
+      - onlineservice
+      - messageservice   
+    ports:
+      - "5173:5173"
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+volumes:
+  pgdata_auth:
+  pgdata_message:
+  pgdata_online:
+  frontend_node_modules:
