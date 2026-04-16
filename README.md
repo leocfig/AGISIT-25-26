@@ -378,3 +378,6 @@ This project is licensed for academic use within the **AGISIT** course at **Inst
 -----
 
 Grade: 18.00/20.00
+
+## Note
+The original project was developed in a private GitLab repository as part of the AGISIT 25/26 course.
