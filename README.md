@@ -375,3 +375,6 @@ If you encounter any issues or have questions about the project, you can contact
 ## License
 This project is licensed for academic use within the **AGISIT** course at **Instituto Superior Técnico**.
 
+-----
+
+Grade: 18.00/20.00
